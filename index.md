@@ -18,5 +18,3 @@ Block with \[...\]:
 \\[
 \sum_{i=1}^n i = \frac{n(n+1)}{2}
 \\]
-
-<div class="math-left">$$\sum_{i=1}^n i = \frac{n(n+1)}{2}$$</div>
