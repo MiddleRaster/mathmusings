@@ -5,10 +5,16 @@ title: Home
 
 Welcome to Math Musings!
 
-Here’s some inline math: \(a^2 + b^2 = c^2\).
+Inline: \(E=mc^2\)
 
-And here’s display math:
+Block with $$:
 
 $$
-\int_0^1 x^2 \, dx = \tfrac{1}{3}
+\frac{d}{dx} x^2 = 2x
 $$
+
+Block with \[...\]:
+
+\[
+\sum_{i=1}^n i = \frac{n(n+1)}{2}
+\]
