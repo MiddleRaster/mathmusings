@@ -15,8 +15,8 @@ $$
 
 Block with \[...\]:
 
-<div style="text-align:left;">
 \\[
 \sum_{i=1}^n i = \frac{n(n+1)}{2}
 \\]
-</div>
+
+<div class="math-left">$$\sum_{i=1}^n i = \frac{n(n+1)}{2}$$</div>
