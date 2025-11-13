@@ -5,7 +5,7 @@ title: Home
 
 Welcome to Math Musings!
 
-Inline: \(E=mc^2\)
+Inline: \\(E=mc^2\\)
 
 Block with $$:
 
@@ -15,6 +15,6 @@ $$
 
 Block with \[...\]:
 
-\[
+\\[
 \sum_{i=1}^n i = \frac{n(n+1)}{2}
-\]
+\\]
