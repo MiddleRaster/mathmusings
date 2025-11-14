@@ -83,7 +83,8 @@ Do a substitution on the second part. In the second integral, set \\(t=a \cdot u
 
 The first integral in (1) is \\(A(a)\\), and the transformed second integral is \\(A(b)\\).
 
-Conclusion:  The area function \\(A\\) converts products of abscissas into sums of areas:  \\(A(ab)=A(a)+A(b).)\\)
+Conclusion:  The area function \\(A\\) converts products of abscissas into sums of areas:
+\\[A(ab)=A(a)+A(b).\\]
 <br><br>
 
 
