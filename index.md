@@ -7,10 +7,10 @@ title: Home
 
 I love math, but I don't have all that much to say about it.
 
-Here's a post on how we know that\\(\int \frac{1}{x} \, dx = \ln|x| \\). Click on the formula:
+Here's a post on how we know that\\(\int \frac{1}{x} \, dx = \ln|x| + C \\). Click on the formula:
 [
 \\[
-\int \frac{1}{x} \, dx = \ln|x| 
+\int \frac{1}{x} \, dx = \ln|x| + C
 \\]
 ](TheIntegralOfOneOverX)
 
