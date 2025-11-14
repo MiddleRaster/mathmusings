@@ -12,6 +12,12 @@ That being said, [here](TheIntegralOfOneOverX)'s a post on how we know that
 \int \frac{1}{x} \, dx = \ln|x| 
 \\].
 
+Try this link:
+[
+\\[
+\int \frac{1}{x} \, dx = \ln|x| 
+\\]
+](TheIntegralOfOneOverX)
 
 ### Sandbox stuff below:
 
@@ -22,15 +28,3 @@ Block with $$:
 $$
 \frac{d}{dx} x^2 = 2x
 $$
-
-Block with \[...\]:
-
-\\[
-\sum_{i=1}^n i = \frac{n(n+1)}{2}
-\\]
-
-Inline with $:   \\$x=1\\$
-Block with $:
-\\$
-x=1
-\\$
