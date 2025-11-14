@@ -181,9 +181,9 @@ And the area of the smaller rectangle is:
 \\]
 
 So we have:
-
+\\[
 x/(1+x) <= LogBaseB(1+x) <= x.
-
+\\]
 Dividing by x gives:
 
 1/(1+x) <= LogBaseB(1+x)/x <= 1.
