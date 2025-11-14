@@ -59,9 +59,9 @@ In 1647, Gregoire de Saint-Vincent showed that the areas under the curve \\(y = 
 Let's prove his result, but in modern terms ('cuz I don't want to schlep through his geometric proof by similarities).
 
 For \\(x>0\\), define the area under the curve \\(y=\frac{1}{t}\\) from \\(t=1\\) to \\(t=x\\) by
-\\(
+\\[
 A(x):=\int_{1}^{x}\frac{1}{t}\,dt.
-\\)
+\\]
 
 Then, for the area of a product \\(ab\\), for \(a>0\) and \(b>0\), the area associated with that product is
 \\(
