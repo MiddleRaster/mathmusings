@@ -52,27 +52,36 @@ So we have the relation:
 Nap(m)\cdot Nap(n) = 10^{7}\cdot Nap(m+n)
 \\]
 which looks kind of like a logarithm, but has this extra scaling factor in it. But nevertheless, it's a logarithm of sorts.
+<br><br>
 
-
-
-### Step 2: Sait-Vincent's contribution
-In 1647, Gregoire de Saint-Vincent showed that the areas under the curve \\(y = 1/x.\\) has additive properties, though he didn't make the connection with logarithms.
+### Step 2: Saint-Vincent's contribution
+In 1647, Gregoire de Saint-Vincent showed that the areas under the curve \\(y = 1/x\\) has additive properties, though he didn't make the connection with logarithms.
 Let's prove his result, but in modern terms ('cuz I don't want to schlep through his geometric proof by similarities).
 
-For \\(x>0\\), define the area under the curve \\(y=\frac{1}{t}\\) from \\(t=1\\) to \\(t=x\\) by \\(A(x):=\int_{1}^{x}\frac{1}{t}\,dt.\\)
+For \\(x>0\\), define the area under the curve \\(y=\frac{1}{t}\\) from \\(t=1\\) to \\(t=x\\) by
+\\(
+A(x):=\int_{1}^{x}\frac{1}{t}\,dt.
+\\)
 
-Then, for the area of a product \\(ab\\), for \(a>0\) and \(b>0\), the area associated to the product is  A(ab)=\\(\int_{1}^{ab}\frac{1}{t}\,dt.))\
+Then, for the area of a product \\(ab\\), for \(a>0\) and \(b>0\), the area associated with that product is
+\\(
+A(ab):=\int_{1}^{ab}\frac{1}{t}\,dt.
+\\)
 
-Now, split the area at \\(a\\):  \\([1,ab]\\) at \\(a\\):  \\(A(ab)=\int_{1}^{a}\frac{1}{t}\,dt\;+\;\int_{a}^{ab}\frac{1}{t}\,dt\\).
+Now, split the area at \\(a\\):\\([1,ab]\\) at \\(a\\):
+\\(
+A(ab)=\int_{1}^{a}\frac{1}{t}\,dt\;+\;\int_{a}^{ab}\frac{1}{t}\,dt
+\\).
 
-Do a substitution on the second part. In the second integral, set \\(t=a\,u\\). Then \\(dt=a\,du\\), and the limits transform as \\(t=a\mapsto u=1\\), \\(t=ab\mapsto u=b\\).
-\\(\int_{a}^{ab}\frac{1}{t}\,dt=\int_{1}^{b}\frac{1}{a\,u}\cdot a\,du=\int_{1}^{b}\frac{1}{u}\,du.\\)
+Do a substitution on the second part. In the second integral, set \\(t=a \cdot u\\). Then \\(dt=a\,du\\), and the limits transform as \\(t=a\mapsto u=1\\), \\(t=ab\mapsto u=b\\).
+\\(
+\int_{a}^{ab}\frac{1}{t}\,dt=\int_{1}^{b}\frac{1}{a\,u}\cdot a\,du=\int_{1}^{b}\frac{1}{u}\,du.
+\\)
 
 The first integral is \\(A(a)\\), and the transformed second integral is \\(A(b)\\):  A(ab)=A(a)+A(b).
 
 Conclusion:  The area function \\(A\\) converts products of abscissas into sums of areas:A(ab)=A(a)+A(b),\\(\quad a>0,\;b>0))\.
-
-
+<br><br>
 
 
 
