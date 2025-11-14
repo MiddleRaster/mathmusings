@@ -187,6 +187,15 @@ so by the squeeze theorem, LogBaseB(1+x)/x = 1.
 
 Finally, from Bernoulli's equation with n=1/x, we have (1+x)^(1/x) = e as x approaches 0.
 We also showed that LogBaseB(1+x)/x is exactly 1. Plugging both of those facts into equaltion 4, gives:
-e = InverseOfLogBaseB(1). So the base B is e. And that means that InverseOfLogBaseB is e^x and LogBaseB is ln(x).
+
+e = InverseOfLogBaseB(1). 
+
+So the base B is e. 
+
+And that means that 
+
+InverseOfLogBaseB is e^x and 
+
+LogBaseB is ln(x).
 
 And that completes our proof that the area under the curve 1/x is indeed ln(x).
