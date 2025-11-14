@@ -64,23 +64,23 @@ A(x):=\int_{1}^{x}\frac{1}{t}\,dt.
 \\]
 
 Then, for the area of a product \\(ab\\), for \(a>0\) and \(b>0\), the area associated with that product is
-\\(
+\\[
 A(ab):=\int_{1}^{ab}\frac{1}{t}\,dt.
-\\)
+\\]
 
 Now, split the area at \\(a\\):\\([1,ab]\\) at \\(a\\):
-\\(
+\\[
 A(ab)=\int_{1}^{a}\frac{1}{t}\,dt\;+\;\int_{a}^{ab}\frac{1}{t}\,dt
-\\).
+\\].
 
 Do a substitution on the second part. In the second integral, set \\(t=a \cdot u\\). Then \\(dt=a\,du\\), and the limits transform as \\(t=a\mapsto u=1\\), \\(t=ab\mapsto u=b\\).
-\\(
+\\[
 \int_{a}^{ab}\frac{1}{t}\,dt=\int_{1}^{b}\frac{1}{a\,u}\cdot a\,du=\int_{1}^{b}\frac{1}{u}\,du.
-\\)
+\\]
 
-The first integral is \\(A(a)\\), and the transformed second integral is \\(A(b)\\):  A(ab)=A(a)+A(b).
+The first integral is \\(A(a)\\), and the transformed second integral is \\(A(b)\\).
 
-Conclusion:  The area function \\(A\\) converts products of abscissas into sums of areas:A(ab)=A(a)+A(b),\\(\quad a>0,\;b>0))\.
+Conclusion:  The area function \\(A\\) converts products of abscissas into sums of areas:  A(ab)=A(a)+A(b),\\(for a>0,\;b>0))\.
 <br><br>
 
 
