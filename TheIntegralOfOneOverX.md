@@ -9,5 +9,8 @@ Now, usually, the teacher just tells you that the answer is \\(\ln(x)\\) without
 
 This will not do.
 
-Let's prove \\[\int \frac{1}{x} \, dx = \ln|x| \\] from scratch, the way it was done historically.
+Let's prove 
+\\[
+\int \frac{1}{x} \, dx = \ln|x| 
+\\] from scratch, the way it was done historically.
 
