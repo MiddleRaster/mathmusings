@@ -145,8 +145,9 @@ e = \lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^{n}
 
 Now, you can **define** an inverse of any logarithm, whatever the base, let's call it InverseOfLogBaseB, such that
 \\[
-InverseLogBaseB(LogBaseB(x)) = x, and 
+InverseLogBaseB(LogBaseB(x)) = x,
 \\]
+and
 \\[
 LogBaseB(InverseLogBaseB(x)) = x.
 \\]
@@ -154,11 +155,15 @@ LogBaseB(InverseLogBaseB(x)) = x.
 From normal logarithm rules, including our LogBaseB, we know it's an additive function, so we can say,
 LogBaseB(a^n) = n*LogBaseB(a). This works for rational powers, too (say, q), not just integer values of n.
 
-So, a^q = InverseOfLogBaseB(q*LogBaseB(a)).
+So, 
+\\[
+a^q = InverseOfLogBaseB(q*LogBaseB(a)).
+\\]
 
-Now pick a = 1+x, and q = 1/x, and we get
-(1+x)^(1/x) = InverseOfLogBaseB((LogBaseB(1 + x) / x).                  tag{4}
-
+Now pick \\(a = 1+x\\), and \\(q = 1/x\\), and we get
+\\[
+(1+x)^(1/x) = InverseOfLogBaseB((LogBaseB(1 + x) / x).                  \tag{4}
+\\]
 
 Now, let's switch gears and look into the area under the curve 1/x starting at 1 and going to 1+x.
 We can find an overly large rectangle that encoumpasses the whole thing; it's rectangle from by upper-left point (1,1)
