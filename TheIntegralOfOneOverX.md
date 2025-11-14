@@ -144,10 +144,12 @@ e = \lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^{n}
 \\]
 
 Now, you can **define** an inverse of any logarithm, whatever the base, let's call it InverseOfLogBaseB, such that
-
-LogBaseB(InverseLogBaseB(x)) = x, and
-
-InverseLogBaseB(LogBaseB(x)) = x.
+\\[
+InverseLogBaseB(LogBaseB(x)) = x, and 
+\\]
+\\[
+LogBaseB(InverseLogBaseB(x)) = x.
+\\]
 
 From normal logarithm rules, including our LogBaseB, we know it's an additive function, so we can say,
 LogBaseB(a^n) = n*LogBaseB(a). This works for rational powers, too (say, q), not just integer values of n.
