@@ -115,7 +115,7 @@ That's great, but that formula only works for an interest rate of 100%. What abo
 n = \frac{m}{r}
 \\]
 
-Substitute into (2) gives:
+Substituting into (2) gives:
 \\[
 e \;=\; \lim_{m \to \infty} \left(1 + \frac{1}{\,m/r\,}\right)^{\,m/r\,}
      \;=\; \lim_{m \to \infty} \left(1 + \frac{r}{m}\right)^{\,m/r\,}
@@ -129,19 +129,7 @@ e^{r}
 = \lim_{m \to \infty} \left(1 + \frac{r}{m}\right)^{m}.
 \\]
 
-Therefore, since
-\\[
-\lim_{m \to \infty} \left(1 + \frac{1}{m}\right)^{m} = e
-\\]
-
-we can take the limit,
-\\[
-\lim_{n \to \infty} \left(1 + \frac{r}{n}\right)^n
-= \left(\lim_{m \to \infty} \left(1 + \frac{1}{m}\right)^m\right)^r
-= e^{r}
-\\]
-
-Resulting in 
+Renaming m back to n results in our final formula:
 \\[
 \lim_{n \to \infty} \left(1 + \frac{r}{n}\right)^n = e^{r}                \tag{3}
 \\]
