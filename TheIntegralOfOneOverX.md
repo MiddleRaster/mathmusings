@@ -116,28 +116,32 @@ m = \frac{n}{r}, \qquad \frac{r}{n} = \frac{1}{m}
 
 Substitute into (2) gives:
 \\[
-\left(1 + \frac{r}{n}\right)^n = \left(1 + \frac{1}{m}\right)^{r m}.
+\left(1 + \frac{r}{n}\right)^n = \left(1 + \frac{1}{m}\right)^{r m}
 \\]
 
 And rearranging a little gives:
 \\[
-\left(1 + \frac{1}{m}\right)^{r m} = \left[\left(1 + \frac{1}{m}\right)^{m}\right]^r.
+\left(1 + \frac{1}{m}\right)^{r m} = \left[\left(1 + \frac{1}{m}\right)^{m}\right]^r
 \\]
 
-Therefore, 
+Therefore, since
 \\[
 \lim_{m \to \infty} \left(1 + \frac{1}{m}\right)^{m} = e
 \\]
 
+we can take the limit,
 \\[
 \lim_{n \to \infty} \left(1 + \frac{r}{n}\right)^n
 = \left(\lim_{m \to \infty} \left(1 + \frac{1}{m}\right)^m\right)^r
 = e^{r}
 \\]
 
+Resulting in 
 \\[
-\left(1 + \frac{r}{n}\right)^n
+\lim_{n \to \infty} \left(1 + \frac{r}{n}\right)^n = e^{r}                \tag{3}
 \\]
 
+
+### **Step 5: Euler's contribution**
 
 
