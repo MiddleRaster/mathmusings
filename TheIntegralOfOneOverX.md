@@ -72,9 +72,9 @@ A(ab):=\int_{1}^{ab}\frac{1}{t}\,dt.
 
 Now, split the area at \\(a\\):\\([1,ab]\\) at \\(a\\):
 
-\\begin{equation}
-A(ab)=\int_{1}^{a}\frac{1}{t}\,dt\;+\;\int_{a}^{ab}\frac{1}{t}\,dt.
-\\end{equation}
+\\[
+A(ab)=\int_{1}^{a}\frac{1}{t}\,dt\;+\;\int_{a}^{ab}\frac{1}{t}\,dt.    \tag{1}
+\\]
 
 Do a substitution on the second part. In the second integral, set \\(t=a \cdot u\\). Then \\(dt=a\,du\\), and the limits transform as \\(t=a\mapsto u=1\\), \\(t=ab\mapsto u=b\\).
 \\[
