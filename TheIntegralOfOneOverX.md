@@ -166,7 +166,7 @@ Now pick \\(a = 1+x\\), and \\(q = 1/x\\), and we get
 \\]
 
 Now, let's switch gears and look into the area under the curve 1/x starting at 1 and going to 1+x.
-We can find an overly large rectangle that encoumpasses the whole thing; it's rectangle from by upper-left point (1,1)
+We can find an overly large rectangle that encoumpasses the whole thing; it's rectangle from by upper-left point \\((1,1)\\)
 and the lower-right point is \\((1+x,0).\\)
 We can also find a too small rectangle by using the other end of the 1/x curve; 
 it's the rectangle from the upper-right point \\((1+x, 1/(1+x))\\) and the lower-left point \\((1,0).\\)
@@ -177,7 +177,7 @@ The real area of the curve will be between these two. In other words, the area o
 
 And the area of the smaller rectangle is:
 \\[
-(1+x-1)*(1/(1+x)) = x/(1+x).
+(1+x-1)*(1/(1+x)-0) = x/(1+x).
 \\]
 
 So we have:
@@ -185,23 +185,24 @@ So we have:
 x/(1+x) <= LogBaseB(1+x) <= x.
 \\]
 Dividing by x gives:
-
+\\[
 1/(1+x) <= LogBaseB(1+x)/x <= 1.
-
+\\]
 Now, letting x approach 0 means that both the right and left sides approach 1, 
-so by the squeeze theorem, LogBaseB(1+x)/x = 1.
+so by the squeeze theorem, \\[LogBaseB(1+x)/x = 1.\\]
 
-Finally, from Bernoulli's equation with n=1/x, we have (1+x)^(1/x) = e as x approaches 0.
-We also showed that LogBaseB(1+x)/x is exactly 1. Plugging both of those facts into equaltion 4, gives:
-
+Finally, from Bernoulli's equation with \\(n=1/x,\\) we have \\[(1+x)^(1/x) = e\\] as x approaches 0.
+We also showed that \\(LogBaseB(1+x)/x\\) is exactly \\(1.\\) Plugging both of those facts into equaltion 4, gives:
+\\[
 e = InverseOfLogBaseB(1). 
-
+\\]
 So the base B is e. 
 
 And that means that 
-
-InverseOfLogBaseB is e^x and 
-
+\\[
+InverseOfLogBaseB is e^x
+\\] and 
+\\[
 LogBaseB is ln(x).
-
+\\]
 And that completes our proof that the area under the curve 1/x is indeed ln(x).
