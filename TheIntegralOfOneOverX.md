@@ -162,7 +162,7 @@ a^q = InverseOfLogBaseB(q*LogBaseB(a)).
 
 Now pick \\(a = 1+x\\), and \\(q = 1/x\\), and we get
 \\[
-(1+x)^{\tfrac{1}{x}}) = InverseOfLogBaseB((LogBaseB(1 + x) / x).                  \tag{4}
+(1+x)^{\tfrac{1}{x}} = InverseOfLogBaseB((LogBaseB(1 + x) / x).                  \tag{4}
 \\]
 
 Now, let's switch gears and look into the area under the curve 1/x starting at 1 and going to 1+x.
