@@ -70,7 +70,7 @@ Then, for the area of a product \\(ab\\), for \(a>0\) and \(b>0\), the area asso
 A(ab):=\int_{1}^{ab}\frac{1}{t}\,dt.
 \\]
 
-Now, split the area at \\(a\\):\\([1,ab]\\) at \\(a\\):
+Now, split the area at some \\(a\\): \\([1,ab]\\):
 
 \\[
 A(ab)=\int_{1}^{a}\frac{1}{t}\,dt\;+\;\int_{a}^{ab}\frac{1}{t}\,dt.    \tag{1}
@@ -81,9 +81,9 @@ Do a substitution on the second part. In the second integral, set \\(t=a \cdot u
 \int_{a}^{ab}\frac{1}{t}\,dt=\int_{1}^{b}\frac{1}{a\,u}\cdot a\,du=\int_{1}^{b}\frac{1}{u}\,du.
 \\]
 
-The first integral is in (1) \\(A(a)\\), and the transformed second integral is \\(A(b)\\).
+The first integral in (1) is \\(A(a)\\), and the transformed second integral is \\(A(b)\\).
 
-Conclusion:  The area function \\(A\\) converts products of abscissas into sums of areas:  A(ab)=A(a)+A(b).
+Conclusion:  The area function \\(A\\) converts products of abscissas into sums of areas:  \\(A(ab)=A(a)+A(b)))\.
 <br><br>
 
 
