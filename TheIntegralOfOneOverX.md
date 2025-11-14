@@ -137,7 +137,11 @@ Renaming m back to n results in our final formula:
 
 ### **Step 5: Euler's contribution**
 Ok, in English first.
-Euler took the Bernoulli equation and set n = 1/x, giving (1 + x)^(1/x) = e, when x -> 0.
+Euler took the Bernoulli equation and set ((\n = 1/x))\, giving
+\\[
+e = \lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^{n}
+   = \lim_{x \to 0^{+}} (1+x)^{\,1/x}
+\\]
 
 Now, you can **define** an inverse of any logarithm, whatever the base, let's call it InverseOfLogBaseB, such that
 
