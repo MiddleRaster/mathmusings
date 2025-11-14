@@ -28,3 +28,9 @@ Block with \[...\]:
 \\[
 \sum_{i=1}^n i = \frac{n(n+1)}{2}
 \\]
+
+Inline with $:   $x=1$
+Block with $:
+$
+x=1
+$
