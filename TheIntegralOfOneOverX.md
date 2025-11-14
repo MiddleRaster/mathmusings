@@ -62,12 +62,12 @@ Let's prove his result, but in modern terms ('cuz I don't want to schlep through
 
 For \\(x>0\\), define the area under the curve \\(y=\frac{1}{t}\\) from \\(t=1\\) to \\(t=x\\) by
 \\[
-A(x):=\int_{1}^{x}\frac{1}{t}\,dt.
+A(x)=\int_{1}^{x}\frac{1}{t}\,dt.
 \\]
 
 Then, for the area of a product \\(ab\\), for \(a>0\) and \(b>0\), the area associated with that product is
 \\[
-A(ab):=\int_{1}^{ab}\frac{1}{t}\,dt.
+A(ab)=\int_{1}^{ab}\frac{1}{t}\,dt.
 \\]
 
 Now, split the area at some \\(a\\) from the interval \\([1,ab]\\):
@@ -119,6 +119,19 @@ Substitute into (2) gives:
 \\[
 \left(1 + \frac{r}{n}\right)^n = \left(1 + \frac{1}{m}\right)^{r m}
 \\]
+
+
+
+
+\\[
+e \;=\; \lim_{m \to \infty} \left(1 + \frac{1}{\,m/r\,}\right)^{\,m/r\,}
+     \;=\; \lim_{m \to \infty} \left(1 + \frac{r}{m}\right)^{\,m/r\,}
+\\]
+
+
+
+
+
 
 And rearranging a little gives:
 \\[
