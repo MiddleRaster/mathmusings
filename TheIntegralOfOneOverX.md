@@ -148,10 +148,12 @@ Ok, in English first.
 Euler took the Bernoulli equation and set n = 1/x, giving (1 + x)^(1/x) = e, when x -> 0.
 
 Now, you can **define** an inverse of any logarithm, whatever the base, let's call it InverseOfLogBaseB, such that
+
 LogBaseB(InverseLogBaseB(x)) = x, and
+
 InverseLogBaseB(LogBaseB(x)) = x.
 
-From normal logarithm rules, including out LogBaseB, we know it's an additive function, so we can say,
+From normal logarithm rules, including our LogBaseB, we know it's an additive function, so we can say,
 LogBaseB(a^n) = n*LogBaseB(a). This works for rational powers, too (say, q), not just integer values of n.
 
 So, a^q = InverseOfLogBaseB(q*LogBaseB(a)).
@@ -162,18 +164,24 @@ Now pick a = 1+x, and q = 1/x, and we get
 
 Now, let's switch gears and look into the area under the curve 1/x starting at 1 and going to 1+x.
 We can find an overly large rectangle that encoumpasses the whole thing; it's rectangle from by upper-left point (1,1)
-and the lower-right point is 0,1+x.
+and the lower-right point is (1+x,0).
 We can also find a too small rectangle by using the other end of the 1/x curve; 
 it's the rectangle from the upper-right point ((1+x, 1/(1+x) ) and the lower-left point (1,0).
 The real area of the curve will be between these two. In other words, the area of the bigger rectangle is:
+
 (1-0)*(1+x-1) = x
+
 And the area of the smaller rectangle is:
 (1+x-1)*(1/(1+x)) = x/(1+x).
 
 So we have:
+
 x/(1+x) <= LogBaseB(1+x) <= x.
-Dividing by x give:
+
+Dividing by x gives:
+
 1/(1+x) <= LogBaseB(1+x)/x <= 1.
+
 Now, letting x approach 0 means that both the right and left sides approach 1, 
 so by the squeeze theorem, LogBaseB(1+x)/x = 1.
 
