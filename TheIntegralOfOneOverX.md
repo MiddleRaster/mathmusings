@@ -81,7 +81,7 @@ Do a substitution on the second part. In the second integral, set \\(t=a \cdot u
 \int_{a}^{ab}\frac{1}{t}\,dt=\int_{1}^{b}\frac{1}{a\,u}\cdot a\,du=\int_{1}^{b}\frac{1}{u}\,du.
 \\]
 
-The first integral is \\(A(a)\\), and the transformed second integral is \\(A(b)\\).
+The first integral is in (1) \\(A(a)\\), and the transformed second integral is \\(A(b)\\).
 
 Conclusion:  The area function \\(A\\) converts products of abscissas into sums of areas:  A(ab)=A(a)+A(b).
 <br><br>
@@ -94,22 +94,50 @@ Two years later, Alphonse Antonio de Sarasa, in 1649, made the connection betwee
 
 
 ### **Step 4: Bernoulli's contribution**
-sfsdf
+Ok, we've shown that \\(\int \frac{1}{x} \, dx \\) is some kind of logarithm, but which one? What's the base?
 
+In 1683, Jakob Bernoulli was studying compound interest. In particular, he was looking at what happens when you compound more and more frequently.
+For example, if you have $1 and you are getting 100% interest compounded annually, then after a year, you have $2.
 
+But, if you get 50% interest compounded semiannually (twice a year), you end up with $2.25 after a year. 
+Similarly, you get approximately $2.44 when it's compounded quarterly, $2.61 for monthly, and $2.71 for daily.
 
+The general formula is
+\\[
+\left(1 + \frac{1}{n}\right)^n.    \tag{2}
+\\]
 
+And Bernoulli realized that when n approaches infinity, that formula approaches a limit. We now call it e.
 
+That's great, but that formula only works for an interest rate of 100%. What about other rates?  Take formula (2) and perform a subsitution:
+\\[
+m = \frac{n}{r}, \qquad \frac{r}{n} = \frac{1}{m}
+\\]
 
+Substitute into (2) gives:
+\\[
+\left(1 + \frac{r}{n}\right)^n = \left(1 + \frac{1}{m}\right)^{r m}.
+\\]
 
+And rearranging a little gives:
+\\[
+\left(1 + \frac{1}{m}\right)^{r m} = \left[\left(1 + \frac{1}{m}\right)^{m}\right]^r.
+\\]
 
+Therefore, 
+\\[
+\lim_{m \to \infty} \left(1 + \frac{1}{m}\right)^{m} = e
+\\]
 
+\\[
+\lim_{n \to \infty} \left(1 + \frac{r}{n}\right)^n
+= \left(\lim_{m \to \infty} \left(1 + \frac{1}{m}\right)^m\right)^r
+= e^{r}
+\\]
 
-
-
-
-
-
+\\[
+\left(1 + \frac{r}{n}\right)^n
+\\]
 
 
 
