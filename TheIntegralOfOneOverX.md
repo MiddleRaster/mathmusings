@@ -171,8 +171,9 @@ and the lower-right point is (1+x,0).
 We can also find a too small rectangle by using the other end of the 1/x curve; 
 it's the rectangle from the upper-right point ((1+x, 1/(1+x) ) and the lower-left point (1,0).
 The real area of the curve will be between these two. In other words, the area of the bigger rectangle is:
-
+\\[
 (1-0)*(1+x-1) = x
+\\]
 
 And the area of the smaller rectangle is:
 (1+x-1)*(1/(1+x)) = x/(1+x).
