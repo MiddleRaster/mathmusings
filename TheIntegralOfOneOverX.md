@@ -176,7 +176,9 @@ The real area of the curve will be between these two. In other words, the area o
 \\]
 
 And the area of the smaller rectangle is:
+\\[
 (1+x-1)*(1/(1+x)) = x/(1+x).
+\\]
 
 So we have:
 
