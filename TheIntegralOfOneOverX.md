@@ -192,17 +192,17 @@ Now, letting x approach 0 means that both the right and left sides approach 1,
 so by the squeeze theorem, \\[LogBaseB(1+x)/x = 1.\\]
 
 Finally, from Bernoulli's equation with \\(n=1/x,\\) we have \\[\lim_{x \to 0} (1+x)^{\tfrac{1}{x}} = e.\\]
-We also showed that \\(LogBaseB(1+x)/x\\) is exactly \\(1.\\) Plugging both of those facts into equaltion 4, gives:
+We also showed that \\(LogBaseB(1+x)/x\\) is exactly \\(1.\\) Plugging both of those facts into equation 4, gives:
 \\[
 e = InverseOfLogBaseB(1). 
 \\]
-So the base B is e. 
+So the base B is \\(e.\\) 
 
 And that means that 
 \\[
-InverseOfLogBaseB is e^x
+InverseOfLogBaseB = e^x
 \\] and 
 \\[
-LogBaseB is ln(x).
+LogBaseB = ln(x).
 \\]
 And that completes our proof that the area under the curve 1/x is indeed ln(x).
