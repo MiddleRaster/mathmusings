@@ -191,7 +191,7 @@ Dividing by x gives:
 Now, letting x approach 0 means that both the right and left sides approach 1, 
 so by the squeeze theorem, \\[LogBaseB(1+x)/x = 1.\\]
 
-Finally, from Bernoulli's equation with \\(n=1/x,\\) we have \\[(1+x)^(1/x) = e\\] as x approaches 0.
+Finally, from Bernoulli's equation with \\(n=1/x,\\) we have \\[\lim_{x \to 0} (1+x)^{\tfrac{1}{x}} = e.\\]
 We also showed that \\(LogBaseB(1+x)/x\\) is exactly \\(1.\\) Plugging both of those facts into equaltion 4, gives:
 \\[
 e = InverseOfLogBaseB(1). 
