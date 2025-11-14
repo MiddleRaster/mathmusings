@@ -110,32 +110,23 @@ The general formula is
 
 And Bernoulli realized that when n approaches infinity, that formula approaches a limit. We now call it e.
 
-That's great, but that formula only works for an interest rate of 100%. What about other rates?  Take formula (2) and perform a subsitution:
+That's great, but that formula only works for an interest rate of 100%. What about other rates?  Take formula (2) and perform a subsitution (for fixed r):
 \\[
-m = \frac{n}{r}, \qquad \frac{r}{n} = \frac{1}{m}
+n = \frac{m}{r}
 \\]
 
 Substitute into (2) gives:
-\\[
-\left(1 + \frac{r}{n}\right)^n = \left(1 + \frac{1}{m}\right)^{r m}
-\\]
-
-
-
-
 \\[
 e \;=\; \lim_{m \to \infty} \left(1 + \frac{1}{\,m/r\,}\right)^{\,m/r\,}
      \;=\; \lim_{m \to \infty} \left(1 + \frac{r}{m}\right)^{\,m/r\,}
 \\]
 
-
-
-
-
-
-And rearranging a little gives:
+Raising both sides to the power of r:
 \\[
-\left(1 + \frac{1}{m}\right)^{r m} = \left[\left(1 + \frac{1}{m}\right)^{m}\right]^r
+e^{r}
+= \left( \lim_{m \to \infty} \left(1 + \frac{r}{m}\right)^{\,m/r} \right)^{r}
+= \lim_{m \to \infty} \left[ \left(1 + \frac{r}{m}\right)^{\,m/r} \right]^{r}
+= \lim_{m \to \infty} \left(1 + \frac{r}{m}\right)^{m}.
 \\]
 
 Therefore, since
