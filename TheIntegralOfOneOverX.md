@@ -41,7 +41,7 @@ Simplify:
 Nap(m)\cdot Nap(n) = 10^{14}(1 - \frac{1}{10^{7}})^{m+n}.
 \\]
 
-Compare with \(N(m+n)\):
+Compare with \\(Nap(m+n)\\):
 
 \\[
 Nap(m+n) = 10^{7}(1 - \frac{1}{10^{7}})^{m+n}.
@@ -105,7 +105,7 @@ Similarly, you get approximately $2.44 when it's compounded quarterly, $2.61 for
 
 The general formula is
 \\[
-\left(1 + \frac{1}{n}\right)^n.    \tag{2}
+\left(1 + \frac{1}{n}\right)^n    \tag{2}
 \\]
 
 And Bernoulli realized that when n approaches infinity, that formula approaches a limit. We now call it e.
