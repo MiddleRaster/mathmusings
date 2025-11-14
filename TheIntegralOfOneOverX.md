@@ -54,7 +54,9 @@ Nap(m)\cdot Nap(n) = 10^{7}\cdot Nap(m+n)
 which looks kind of like a logarithm, but has this extra scaling factor in it. But nevertheless, it's a logarithm of sorts.
 <br><br>
 
+
 ### Step 2: Saint-Vincent's contribution
+
 In 1647, Gregoire de Saint-Vincent showed that the areas under the curve \\(y = 1/x\\) has additive properties, though he didn't make the connection with logarithms.
 Let's prove his result, but in modern terms ('cuz I don't want to schlep through his geometric proof by similarities).
 
@@ -70,8 +72,8 @@ A(ab):=\int_{1}^{ab}\frac{1}{t}\,dt.
 
 Now, split the area at \\(a\\):\\([1,ab]\\) at \\(a\\):
 \\[
-A(ab)=\int_{1}^{a}\frac{1}{t}\,dt\;+\;\int_{a}^{ab}\frac{1}{t}\,dt
-\\].
+A(ab)=\int_{1}^{a}\frac{1}{t}\,dt\;+\;\int_{a}^{ab}\frac{1}{t}\,dt.
+\\]
 
 Do a substitution on the second part. In the second integral, set \\(t=a \cdot u\\). Then \\(dt=a\,du\\), and the limits transform as \\(t=a\mapsto u=1\\), \\(t=ab\mapsto u=b\\).
 \\[
@@ -80,18 +82,18 @@ Do a substitution on the second part. In the second integral, set \\(t=a \cdot u
 
 The first integral is \\(A(a)\\), and the transformed second integral is \\(A(b)\\).
 
-Conclusion:  The area function \\(A\\) converts products of abscissas into sums of areas:  A(ab)=A(a)+A(b),\\(for a>0,\;b>0))\.
+Conclusion:  The area function \\(A\\) converts products of abscissas into sums of areas:  A(ab)=A(a)+A(b), \\(for a>0,\;b>0))\.
 <br><br>
-
-
-
-
 
 
 ### Step 3: Sarasa's contribution
 
-Alphonse Antonio de Sarasa, in 
+Two years later, Alphonse Antonio de Sarasa, in 1649, made the connection between Napier's work and Saint-Vincent's work. In his *Solutio problematis a R.P. Marino Mersenne Minimo propositi*, he stated, "these areas can fill the place of the given logarithms." He said "fill the place" because of that funky \\(10^7\\) scaling factor of Napier's. But now we've got true logarithms, without any scaling nonsense.
+<br><br>
 
+
+### Step 3: Bernoulli's contribution
+sfsdf
 
 
 
