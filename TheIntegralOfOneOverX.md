@@ -200,9 +200,9 @@ So the base B is \\(e.\\)
 
 And that means that 
 \\[
-InverseOfLogBaseB = e^x
+InverseOfLogBaseB(x) = e^x
 \\] and 
 \\[
-LogBaseB = ln(x).
+LogBaseB(x) = ln(x).
 \\]
-And that completes our proof that the area under the curve 1/x is indeed ln(x).
+And that completes our proof that the area under the curve \\(1/x\\) is indeed \\(ln(x).\\)
