@@ -10,9 +10,10 @@ Now, usually, the teacher just tells you that the answer is \\(\ln(x)\\) without
 This will not do.
 
 Let's prove 
-\\[
+\\(
 \int \frac{1}{x} \, dx = \ln|x| 
-\\] from scratch, the way it was done historically. And for that we need to go all the way back to John Napier and his wonderful invention of logarithms in 1614.
+\\)
+from scratch, the way it was done historically. And for that we need to go all the way back to John Napier and his wonderful invention of logarithms in 1614.
 
 
 ### **Step 1: Napier's Logarithm**
