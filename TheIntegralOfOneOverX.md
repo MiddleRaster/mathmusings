@@ -45,7 +45,7 @@ Nap(m)\cdot Nap(n) = 10^{14}(1 - \frac{1}{10^{7}})^{m+n}.
 Compare with \\(Nap(m+n)\\):
 
 \\[
-Nap(m+n) = 10^{7}10^{7}(1 - \frac{1}{10^{7}})^{m+n}.
+Nap(m+n) = 10^{7}\cdot 10^{7}(1 - \frac{1}{10^{7}})^{m+n}.
 \\]
 
 So we have the relation:
