@@ -109,7 +109,7 @@ The general formula is
 \left(1 + \frac{1}{n}\right)^n    \tag{2}
 \\]
 
-And Bernoulli realized that when n approaches infinity, that formula approaches a limit. We now call it e.
+And Bernoulli realized that when n approaches infinity, that formula approaches a limit. We now call it \\(e.\\)
 
 That's great, but that formula only works for an interest rate of 100%. What about other rates?  Take formula (2) and perform a subsitution (for fixed r):
 \\[
