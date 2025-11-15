@@ -143,11 +143,14 @@ e = \lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^{n}
    = \lim_{x \to 0^{+}} (1+x)^{\,1/x}
 \\]
 
-Now, you can **define** an inverse of any logarithm, whatever the base, let's call it \\(InverseOfLogBaseB))\, such that
+Now, you can **define** an inverse of any logarithm, whatever the base, let's call it \\(InverseOfLogBaseB,\\) such that
+
 \\[
 InverseLogBaseB(LogBaseB(x)) = x,
 \\]
+
 and
+
 \\[
 LogBaseB(InverseLogBaseB(x)) = x.
 \\]
