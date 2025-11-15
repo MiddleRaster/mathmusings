@@ -156,12 +156,12 @@ LogBaseB(InverseLogBaseB(x)) = x.
 \\]
 
 From normal logarithm rules, including our LogBaseB, we know it's an additive function, so we can say
-\\[LogBaseB(a^n) = n*LogBaseB(a).\\] 
+\\[LogBaseB(a^n) = n \cdot LogBaseB(a).\\] 
 This works for rational powers, too (say, q), not just integer values of n.
 
 So, 
 \\[
-a^q = InverseOfLogBaseB(q*LogBaseB(a)).
+a^q = InverseOfLogBaseB(q \cdot LogBaseB(a)).
 \\]
 
 Now pick \\(a = 1+x\\), and \\(q = 1/x\\), and we get
@@ -176,12 +176,12 @@ We can also find a too small rectangle by using the other end of the 1/x curve;
 it's the rectangle from the upper-right point \\((1+x, 1/(1+x))\\) and the lower-left point \\((1,0).\\)
 The real area of the curve will be between these two. In other words, the area of the bigger rectangle is:
 \\[
-(1-0)*(1+x-1) = x
+(1-0)\cdot(1+x-1) = x
 \\]
 
 And the area of the smaller rectangle is:
 \\[
-(1+x-1)*(1/(1+x)-0) = x/(1+x).
+(1+x-1)\cdot(1/(1+x)-0) = x/(1+x).
 \\]
 
 So we have:
