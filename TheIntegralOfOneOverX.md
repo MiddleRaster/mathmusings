@@ -137,7 +137,6 @@ Renaming m back to n results in our final formula:
 
 
 ### **Step 5: Euler's contribution**
-Ok, in English first.
 Euler took the Bernoulli equation and set \\(n = 1/x\\), giving
 \\[
 e = \lim_{n \to \infty} \left(1 + \frac{1}{n}\right)^{n}
