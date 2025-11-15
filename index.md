@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-**## Welcome to MiddleRaster's Math Musings!**
+## **Welcome to MiddleRaster's Math Musings!**
 
 I love math, but I don't have all that much to say about it.
 
