@@ -155,8 +155,9 @@ and
 LogBaseB(InverseLogBaseB(x)) = x.
 \\]
 
-From normal logarithm rules, including our LogBaseB, we know it's an additive function, so we can say,
-\\(LogBaseB(a^n) = n*LogBaseB(a)\\). This works for rational powers, too (say, q), not just integer values of n.
+From normal logarithm rules, including our LogBaseB, we know it's an additive function, so we can say
+\\[LogBaseB(a^n) = n*LogBaseB(a).\\] 
+This works for rational powers, too (say, q), not just integer values of n.
 
 So, 
 \\[
