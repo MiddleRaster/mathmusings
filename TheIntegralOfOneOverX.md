@@ -58,7 +58,7 @@ which looks kind of like a logarithm, but has this extra scaling factor in it. B
 
 ### **Step 2: Saint-Vincent's contribution**
 
-In 1647, Gregoire de Saint-Vincent showed that the areas under the curve \\(y = 1/x\\) has additive properties, though he didn't make the connection with logarithms.
+In 1647, Gregoire de Saint-Vincent showed that the areas under the curve \\(y = 1/x\\) have additive properties, though he didn't make the connection with logarithms.
 Let's prove his result, but in modern terms ('cuz I don't want to schlep through his geometric proof by similarities).
 
 For \\(x>0\\), define the area under the curve \\(y=\frac{1}{t}\\) from \\(t=1\\) to \\(t=x\\) by
