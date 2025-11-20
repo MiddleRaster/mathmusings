@@ -14,4 +14,4 @@ Here's my first post, on how we know that:
 \\]
 ](TheIntegralOfOneOverX) (click on the formula).
 
-Back to [MiddleRaster](middleraster.github.io)'s home page.
+Back to [MiddleRaster](https://middleraster.github.io)'s home page.
