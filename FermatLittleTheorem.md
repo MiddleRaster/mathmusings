@@ -10,9 +10,9 @@ a^{p-1} \equiv 1 \pmod{p}.
 
 Let's prove it, using only tools that Fermat could have used:  induction and the binomial theorem.
 
-For the first step, let's multiply through by \\(p\\), giving
+For the first step, let's multiply through by \\(a\\), giving
 \\[
-a^p \equiv p \pmod{p}.
+a^p \equiv a \pmod{p}.
 \\]
 
 For our proof by induction, we'll need a base case.
@@ -51,7 +51,7 @@ The final step is to apply our hypothesis:  we can replace \\(k^p\\) with \\(k\\
 \\]
 which is exactly what we were trying to prove in the induction step.
 
-Therefore, \\((a)^p \equiv a\pmod{p}\\).
+Therefore, \\(a^p \equiv a\pmod{p}\\).
 
 Finally, to get to Fermat's initial version, we merely divide by \\(a\\), but note that this is only possible if \\(a\\) is invertible; that is, if \\(a \not\equiv 0 \pmod{p}\\),
 which is the same as saying \\(a\\) is coprime with \\(p\\). And when that is true, we have Fermat's Little Theorem:
