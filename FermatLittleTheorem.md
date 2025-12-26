@@ -8,7 +8,7 @@ In 1640, Pierre de Fermat wrote, without proof, that, if \\(p\\) is prime and co
 a^{p-1} \equiv 1\pmod{p}.
 \\]
 
-Let's prove it, using only tools that Fermat could have used:  induction and the binomial theorem.
+Let's prove it, using only tools that Fermat had known about: for our proof, induction and the binomial theorem.
 
 For the first step, let's multiply through by \\(a\\), giving
 \\[
@@ -19,13 +19,12 @@ For our proof by induction, we'll need a base case.
 
 Here are two:  \\(0^p \equiv 0\pmod{p}\\) and \\(1^p \equiv 1\pmod{p}\\).
 
-Next, we must show that if the theorem is true for \\(a = k\\), then it is also true for \\(a = k + 1\\). So,
+Next, we must show that if the theorem is true for some \\(k\\) bigger than 1, that is, \\(a = k\\), then it is also true for \\(a = k + 1\\). So we must show that
 \\[
-(k + 1)^p \equiv 1\pmod{p}.
+(k + 1)^p \equiv k + 1\pmod{p}.
 \\]
 
 Applying the binomial theorem to the left side, we get:
-
 \\[
 (k+1)^p = \sum_{j=0}^{p} \binom{p}{j} k^{\,j} =  \binom{p}{0}k^{0} + \binom{p}{1}k^{1} + \binom{p}{2}k^{2} + \cdots + \binom{p}{p-1}k^{p-1} + \binom{p}{p}k^{p}.
 \\]
