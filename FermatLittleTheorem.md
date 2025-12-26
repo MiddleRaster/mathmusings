@@ -33,7 +33,8 @@ Applying the binomial theorem to the left side, we get:
 Now, each binomial coeefficent is of the form \\[\frac{p!}{j!(p-j)!}\\] for all \\(0<j<p\\).
 
 Note that when \\(j=0\\) or \\(j=p\\), the binomial coefficient is 1. For all other values between \\(1\\) and \\(p\\), we have the prime \\(p\\) in the numerator.
-All the elements of the factorials in the denominator are smaller than the prime \\(p\\), so after all the divisions are done, there's still a non-zero multiple of \\(p\\) left in the numerator. Therefore, we have:
+All the elements of the factorials in the denominator are smaller than the prime \\(p\\), so after all the divisions are done, there's still a non-zero multiple of \\(p\\) left in the numerator. 
+(As a side note, these are exactly the numbers in the \\(p\\)th row of [Pascal's Triangle](https://en.wikipedia.org/wiki/Pascal%27s_triangle).) Therefore, we have:
 
 \\[
 (k+1)^p = 1 + a_{1}\,p\,k + a_{2}\,p\,k^{2} + a_{3}\,p\,k^{3} + \cdots + a_{p-1}\,p\,k^{\,p-1} + k^{p}.
