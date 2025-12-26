@@ -8,21 +8,26 @@ In 1640, Pierre de Fermat wrote, without proof, that, if \\(p\\) is prime and co
 a^{p-1} \equiv 1\pmod{p}.
 \\]
 
-Let's prove it, using only tools that Fermat had known about: in our case, induction and the binomial theorem.
+Let's prove it, using only tools that Fermat could have known about: in our case, induction and the binomial theorem.
 
 For the first step, let's multiply through by \\(a\\), giving
 \\[
 a^p \equiv a\pmod{p}.
 \\]
 
-For our proof by induction, we'll need a base case.
+For our proof by induction, we'll need a base case.  Here are two:
 
-Here are two:  \\(0^p \equiv 0\pmod{p}\\) and \\(1^p \equiv 1\pmod{p}\\).
+\\(0^p \equiv 0\pmod{p}\\) and \\(1^p \equiv 1\pmod{p}\\).
 
-Next, we must show that if the theorem is true for some \\(k\\) bigger than 1, that is, \\(a = k\\), then it is also true for \\(a = k + 1\\). So we must show that
+Next, we must show that if the theorem is true for some \\(k\\), that is, \\(a = k\\), then it is also true for \\(a = k + 1\\). So we must show that, given 
 \\[
-(k + 1)^p \equiv k + 1\pmod{p}.
+k^p \equiv k\pmod{p},
 \\]
+then
+\\[
+(k + 1)^p \equiv k + 1\pmod{p}
+\\]
+is also true.
 
 Applying the binomial theorem to the left side, we get:
 \\[
