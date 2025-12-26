@@ -5,24 +5,23 @@ title: Fermat's Little Theorem
 
 In 1640, Pierre de Fermat wrote, without proof, that, if \\(p\\) is prime and coprime with \\(a\\), then 
 \\[
-a^{p-1} \equiv 1 \pmod{p}.
+a^{p-1} \equiv 1\pmod{p}.
 \\]
 
 Let's prove it, using only tools that Fermat could have used:  induction and the binomial theorem.
 
 For the first step, let's multiply through by \\(a\\), giving
 \\[
-a^p \equiv a \pmod{p}.
+a^p \equiv a\pmod{p}.
 \\]
 
 For our proof by induction, we'll need a base case.
 
-Here are two:  \\(0^p \equiv 0 \pmod{p}\\) and \\(1^p \equiv 1 \pmod{p}\\).
+Here are two:  \\(0^p \equiv 0\pmod{p}\\) and \\(1^p \equiv 1\pmod{p}\\).
 
 Next, we must show that if the theorem is true for \\(a = k\\), then it is also true for \\(a = k + 1\\). So,
-
 \\[
-(k + 1)^p \equiv 1 \pmod{p}.
+(k + 1)^p \equiv 1\pmod{p}.
 \\]
 
 Applying the binomial theorem to the left side, we get:
@@ -56,5 +55,5 @@ Therefore, \\(a^p \equiv a\pmod{p}\\).
 Finally, to get to Fermat's initial version, we merely divide by \\(a\\), but note that this is only possible if \\(a\\) is invertible; that is, if \\(a \not\equiv 0 \pmod{p}\\),
 which is the same as saying \\(a\\) is coprime with \\(p\\). And when that is true, we have Fermat's Little Theorem:
 \\[
-a^{p-1} \equiv 1 \pmod{p}.
+a^{p-1} \equiv 1\pmod{p}.
 \\]
