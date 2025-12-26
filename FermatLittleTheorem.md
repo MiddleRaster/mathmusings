@@ -5,7 +5,7 @@ title: Fermat's Little Theorem
 
 In 1640, Pierre de Fermat wrote, without proof, that, if \\(p\\) is prime and coprime with \\(a\\), then 
 \\[
-a^{p-1} \equiv 1\pmod{p}.        \tag{1}.
+a^{p-1} \equiv 1\pmod{p}.        \tag{1}
 \\]
 
 Let's prove it, using only tools that Fermat could have known about: in our case, induction and the binomial theorem.
@@ -49,7 +49,7 @@ Since all the middle terms are divisible by \\(p\\) (that is, \\(\equiv 0\pmod{p
 (k + 1)^p \equiv 1 + k^p\pmod{p}.
 \\]
 
-The final step is to apply our induction hypothesis:  from eq 3, we can replace \\(k^p\\) with \\(k\\), leaving:
+The final step is to apply our induction hypothesis:  from eq 2, we can replace \\(k^p\\) with \\(k\\), leaving:
 \\[
 (k + 1)^p \equiv k + 1\pmod{p}.
 \\]
@@ -60,7 +60,7 @@ Therefore, \\(a^p \equiv a\pmod{p}\\).
 Finally, to get to Fermat's exact version (eq 1), we merely divide by \\(a\\), but note that this is only possible if \\(a\\) is invertible; that is, if \\(a \not\equiv 0 \pmod{p}\\),
 which is the same as saying \\(a\\) is coprime with \\(p\\). And when that is true, we have Fermat's Little Theorem: 
 
-if \\(p\\) is prime and coprime with \\(a\\), then
+if \\(p\\) is prime and \\(p\\) is coprime with \\(a\\), then
 \\[
 a^{p-1} \equiv 1\pmod{p}.
 \\]
