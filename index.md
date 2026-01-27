@@ -12,8 +12,8 @@ Here's my first post, on how we know that:
 \\[
 \int \frac{1}{x} \, dx = \ln|x| + C
 \\]
-](TheIntegralOfOneOverX) (click on the formula).
+](TheIntegralOfOneOverX.html) (click on the formula).
 
-And here's an easy-to-remember proof of [Fermat's Little Theorem](FermatLittleTheorem).
+And here's an easy-to-remember proof of [Fermat's Little Theorem](FermatLittleTheorem.html).
 
 Back to [MiddleRaster](https://middleraster.github.io)'s home page.
