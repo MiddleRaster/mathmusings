@@ -8,7 +8,7 @@ permalink: /ABA/IsABAGameable.html
 
 ## Introduction
 
-I've been reading on the web and a lot of people categorically say that all metrics can be gamed.
+I've been reading on the web and a lot of people confidently say that all metrics can be gamed.
 Notably, when talking about flow metrics, such as cycle time, WIP and throughput, they claim that you could make yourself look good by slicing up the work into extremely small pieces.
 
 And certainly, if your main metric is some kind of throughput, then that's certainly true.
@@ -62,12 +62,20 @@ First, it makes little sense to break a bug into multiple smaller bugs, but I su
 However, remember that we're not looking at the rate at which bugs are being completed (throughput), but rather we're looking at the average age of the remaining, **open** bugs.
 
 You could split a bug all you want, but, assuming you have a "bugs-first" policy, then you work on the little pieces first and complete them.
-
 The average age of the remaining open bugs is unchanged, that is, invariant.
+
+What if you don't have a "bugs-first" policy?
+Then those split bugs start aging and if you let them fester, the ABA will be worse than if you didn't split them.
 
 
 ## Summary
 
-I haven't found a way to game ABA, but that doesn't mean it's impossible; it only means I haven't found a way yet.
+Ok, here's one way:  you write a tool that closes each bug, and re-opens a new one with exactly the same text.
 
-I still would be extremely leary of using ABA as a metric to measure devs against each other, though I do think it's appropriate to measure teams/groups/orgs/divisions against each other this way.
+At *StupendousCorp*, only testers were actually allowed to close bugs; devs were only allowed to *resolve* bugs.
+This dysfunction means getting the testers in cahoots (which is unlikely) and is easily detectable (as in, "Hey, how come all our bugs were opened yesterday?"). 
+
+
+I haven't found a good way to game ABA, but that doesn't mean it's impossible; it only means I haven't found a way yet.
+
+I still would be extremely leary of using ABA as a metric to measure devs against each other, though I do think it's appropriate to measure dev teams/groups/orgs/divisions against each other this way.
