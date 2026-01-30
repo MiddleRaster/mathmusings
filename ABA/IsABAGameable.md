@@ -86,4 +86,4 @@ This dysfunction means getting the testers in cahoots (which is unlikely) and is
 
 I haven't found a good way to game ABA, but that doesn't mean it's impossible; it only means I haven't found a way yet.
 
-I still would be extremely leery of using ABA as a metric to measure devs against each other, though I do think it's appropriate to measure dev teams/groups/orgs/divisions against each other this way.
+Still, I would be extremely leery of using ABA as a metric to measure devs against each other, though I do think it's appropriate to measure dev teams/groups/orgs/divisions against each other this way.
