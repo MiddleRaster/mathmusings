@@ -57,7 +57,7 @@ What about Kanban teams? They are the ones actually measuring lead- and cycle-ti
 In Kanban, splitting a work item is allowed only if it follows the team’s explicit workflow policies; nothing is forbidden by roles, but everything must be transparent, agreed upon, and consistent with WIP limits.
 So if one person does it, it's with the knowledge of the rest, so they could all do it and his advantage disappears.
 
-Another way of looking at it is that Kanban is all about flow, making things flow through the system smoothly and as quickly as possible (cycle time, not throughput).
+Another way of looking at it is that Kanban is all about flow, making things flow through the system smoothly and as quickly as possible ([cycle time, not throughput](https://middleraster.github.io/Kanban/KanbanThoughts.html)).
 In such a world, the Product Owner could measure the arrival rate, rather than throughput, and so splitting a story would be irrelevant.
 
 
