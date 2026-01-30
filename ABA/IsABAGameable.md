@@ -19,7 +19,7 @@ But what about cycle time or lead time, and specifically, my favorite metric, th
 
 There are two different cases:
 
-1. If you don't have WIP limits or they're set way too high:
+1. If you don't have WIP limits (Scrum) or they're set way too high (poorly done Kanban):
    
    From Little's Law, we have
    \\[Cycle\ Time = \frac{WIP}{Throughput}\\]
