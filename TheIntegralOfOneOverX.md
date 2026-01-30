@@ -3,6 +3,8 @@ layout: default
 title: The Integral of One Over X
 ---
 
+# The Intergral of 1/X
+
 If you've ever taken a first year calculus class, after learning how to integrate polynomials, the next thing you learn is how to integrate \\(1/x.\\)
 
 Now, usually, the teacher just tells you that the answer is \\(\ln(x)\\) without proof. And further, most proofs online use the fact that the inverse function of \\(\ln(x)\\) is \\(e^x\\), again without proof.
