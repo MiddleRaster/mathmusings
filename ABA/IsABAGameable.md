@@ -13,7 +13,7 @@ Notably, when talking about flow metrics, such as cycle time, WIP and throughput
 
 And certainly, if your main metric is some kind of throughput, then that's certainly true.
 
-But what about cycle time or lead time, and specifically, my favorite metric, the average age of open bugs (ABA)?
+But what about cycle time or lead time, and specifically, my favorite metric, the [average age of open bugs (ABA)](https://middleraster.github.io/ABA/TheMetricForSoftwareDevelopment.html)?
 
 ## Tiny Work Items
 
@@ -55,3 +55,19 @@ There are two different cases:
    
 ## Is Average Bug Age Gameable?
 
+Is ABA be similarly invariant to slicing?
+
+First, it makes little sense to break a bug into multiple smaller bugs, but I suppose it's possible.
+
+However, remember that we're not looking at the rate at which bugs are being completed (throughput), but rather we're looking at the average age of the remaining, **open** bugs.
+
+You could split a bug all you want, but, assuming you have a "bugs-first" policy, then you work on the little pieces first and complete them.
+
+The average age of the remaining open bugs is unchanged, that is, invariant.
+
+
+## Summary
+
+I haven't found a way to game ABA, but that doesn't mean it's impossible; it only means I haven't found a way yet.
+
+I still would be extremely leary of using ABA as a metric to measure devs against each other, though I do think it's appropriate to measure teams/groups/orgs/divisions against each other this way.
