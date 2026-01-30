@@ -25,7 +25,7 @@ There are two different cases:
    \\[Cycle\ Time = \frac{WIP}{Throughput}\\]
    
    Say someone slices up his stories 10x thinner.
-   The WIP goes up by 10x and the Throughput goes up by 10x.
+   The WIP goes up by 10x and throughput goes up by 10x (if measured in items/day).
    The **cycle time doesn't change.**
    
 2. If your WIP limits are all set to 1 (per worker):
