@@ -48,7 +48,7 @@ There are two different cases:
    
    So again, the lead time is invariant.
 
-Is it possible for him to slice up his stories later? Not per the Scrum Guide.
+Is it possible for him to slice up his stories later, after the ready backlog? Not per the Scrum Guide.
 
 What about dysfunctional Scrum teams? Sure. But it doesn't matter because, from the PO's perspective, all she cares about is that the PBIs selected for this sprint are done.
 
