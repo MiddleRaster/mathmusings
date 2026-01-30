@@ -3,6 +3,8 @@ layout: default
 title: Fermat's Little Theorem
 ---
 
+# Fermat's Little Theorem
+
 In 1640, Pierre de Fermat wrote, without proof, that, if \\(p\\) is prime and coprime with \\(a\\), then 
 \\[
 a^{p-1} \equiv 1\pmod{p}.        \tag{1}
