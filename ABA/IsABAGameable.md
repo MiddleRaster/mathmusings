@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Is the ABA Metric Gameable?
+permalink: /ABA/IsABAGameable.html
 ---
 
 # Is the ABA Metric Gameable?
