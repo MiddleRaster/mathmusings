@@ -11,7 +11,7 @@ permalink: /ABA/IsABAGameable.html
 I've been reading on the web and a lot of people confidently say that all metrics can be gamed.
 Notably, when talking about flow metrics, such as cycle time, WIP and throughput, they claim that you could make yourself look good by slicing up the work into extremely small pieces.
 
-And certainly, if your main metric is some kind of throughput, then that's certainly true.
+And if your main metric is some kind of throughput, then that's certainly true.
 
 But what about cycle time or lead time, and specifically, my favorite metric, the [average age of open bugs (ABA)](https://middleraster.github.io/ABA/TheMetricForSoftwareDevelopment.html)?
 
