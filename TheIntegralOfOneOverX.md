@@ -3,7 +3,7 @@ layout: default
 title: The Integral of One Over X
 ---
 
-# The Intergral of 1/X
+# The Integral of 1/X
 
 If you've ever taken a first year calculus class, after learning how to integrate polynomials, the next thing you learn is how to integrate \\(1/x.\\)
 
