@@ -81,7 +81,7 @@ Then those split bugs start aging and if you let them fester, the ABA will be wo
 Ok, here's one way:  you write a tool that closes each bug, and re-opens a new one with the same text.
 
 At *StupendousCorp*, only testers were actually allowed to close bugs; devs were only allowed to *resolve* bugs.
-This dysfunction means getting the testers in cahoots (which is unlikely) and is easily detectable (as in, "Hey, how come all our bugs were opened yesterday?"). 
+Using such a tool means getting the testers in cahoots (which is unlikely) and is easily detectable (as in, "Hey, how come all our bugs were opened yesterday?"). 
 
 
 I haven't found a good way to game ABA, but that doesn't mean it's impossible; it only means I haven't found a way yet.
