@@ -20,7 +20,7 @@ from scratch, the way it was done historically. And for that we need to go all t
 
 ### **Step 1: Napier's Logarithm**
 
-What Napier did was discover what he called a wonderful method of multiplying two numbers together by two table lookups, addding those, and then a final table lookup. 
+What Napier did was discover what he called a wonderful method of multiplying two numbers together by two table lookups, adding those, and then a final table lookup. 
 Old people, such as myself, recognize this as using logarithm tables (and slightly less old people might recognize it as similar to how a sliderule works). 
 Of course, he didn't call it that. Instead, let's call it \\(\mathrm{Nap}(x)\\) .
 
