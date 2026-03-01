@@ -113,7 +113,7 @@ The general formula is
 
 And Bernoulli realized that when n approaches infinity, that formula approaches a limit. We now call it \\(e.\\)
 
-That's great, but that formula only works for an interest rate of 100%. What about other rates?  Take formula (2) and perform a subsitution (for fixed r):
+That's great, but that formula only works for an interest rate of 100%. What about other rates?  Take formula (2) and perform a substitution (for fixed r):
 \\[
 n = \frac{m}{r}
 \\]
