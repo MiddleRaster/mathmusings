@@ -23,6 +23,9 @@ where
 \\(y\\) is the yield ***ratio*** (e.g., 1.09 (9%)), and  
 \\(i\\) is the inflation ***ratio*** (e.g., 1.0325 (3.25%)).  
 
+Turns out this is called **the Formula for a Growth Annuity**.
+
+## Derivation
 Here's the derivation:  
 
 \\[
@@ -72,6 +75,25 @@ or
 \\[
 P_n = P_0 y^n - W y^n \left( \frac{1 - \left(\frac{i}{y}\right)^n}{1 - \frac{i}{y}}\\right)        \tag{1}
 \\]
+
+(And yes, I know I can factor out a \\(y^n\\).)
+
+## Uses
+
+Now, using equation (1), we can calculate when we’ll run out of money, for given yield and inflation rates and a withdrawal that keeps up with inflation.
+
+Setting \\(P_n=0\\) and solving for \\(n\\), yields
+
+\\[
+n = \frac{\ln\!\left( 1 - \frac{p_0}{w}\,(1 - i/y) \right),\ln\left(\frac{i}{y}\right)}
+\\]
+
+
+
+
+
+
+
 
 
 
