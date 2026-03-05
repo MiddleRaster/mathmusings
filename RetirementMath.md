@@ -66,7 +66,7 @@ After a few more rounds, the general pattern becomes obvious
 P_n = P_0y^n - Wy(y^{n-1} + y^{n-2} i + \cdots + y^{1} i^{n-2} + i^{n-1}).
 \\]
 
-The part inside the parentheses is a geometric series and, if \\(\lvert i/y \rvert < 1\\) (i.e., that inflation is less than the yyield), can be written
+The part inside the parentheses is a geometric series and, if \\(\lvert i/y \rvert < 1\\) (i.e., that inflation is less than the yield), can be written
 
 \\[
 P_n = P_0 y^n - W y \left( \frac{1 - \left(\frac{i}{y}\right)^n}{1 - \frac{i}{y}}\, y^{n-1} \right)
@@ -123,7 +123,7 @@ I guess I'm not too worried about it.
 
 So there are a couple of things wrong with my formula:
 it assumes that inflation and yield are constants, which is sort of ok in the very long run, but potentially terrible in the short-term. 
-For example, you run into sequence-of-returns risk. 
+For example, you could run into sequence-of-returns risk. 
 This is when you have a bunch of really bad years early in retirement, which could wipe you out.
 
 And that's why [Bill Bengen](https://en.wikipedia.org/wiki/William_Bengen), inventor of [the 4% rule](https://www.financialplanningassociation.org/sites/default/files/2021-04/MAR04%20Determining%20Withdrawal%20Rates%20Using%20Historical%20Data.pdf), ended up with less than my number (5.275%), because his is safer, a lot safer.
