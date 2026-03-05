@@ -98,12 +98,12 @@ or n = 13.8 years.
 Alternatively, we might want to know how much we can withdraw so that the balance ***never*** reaches 0. Setting n to infinity and noting that the denominator is negative (since the inflation rate is less than the yield rate), we have:
 
 \\[
--∞= ln(1- \frac{P_0}{W}(1- i/y))
+-∞= \ln\left( 1 - \displaystyle\frac{p_0}{w}\,(1 - i/y) \right)
 \\]
 
 So, 
 \\[
-0=1-  P_0/W (1- i/y)  
+0 = 1 - P_0/W (1- i/y)
 \\]
 
 Or, 
