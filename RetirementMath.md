@@ -11,9 +11,8 @@ When I retired, the first thing I did was search on the web for a formula that w
 - assuming that the inflation rate and my accounts' yield rate are constant.
 
 After a bunch of fruitless searching, I decided to derive the equation myself.  Here it is:
-
 \\[
-P_n = P_0 \cdot y^n - W\cdot y^n \cdot \frac{1 - \left(\frac{i}{y}\right)^n}{1 - \frac{i}{y}} 
+P_n = P_0 y^n - W y^n \left( \frac{1 - \left(\frac{i}{y}\right)^n}{1 - \frac{i}{y}}\\right)        \tag{1}
 \\]
 
 where  
@@ -23,7 +22,7 @@ where
 \\(y\\) is the yield ***ratio*** (e.g., 1.09 (9%)), and  
 \\(i\\) is the inflation ***ratio*** (e.g., 1.0325 (3.25%)).  
 
-Turns out this is called **the Formula for a Growth Annuity**.
+Turns out this is called the formula for a **Growth Annuity**.
 
 ## Derivation
 Here's the derivation:  
@@ -111,7 +110,7 @@ Or,
 W= P_0 (1- i/y)
 \\]
 
-Using our example numbers above, shows that we can withdraw up to $52,752.29 (inflation-adjusted) per year and we’ll never run out of money.  
+Using our example numbers above shows that we can withdraw up to $52,752.29 (inflation-adjusted) per year and we’ll never run out of money.  
 
 If we were to withdraw just one penny (inflation-adjusted) more every year, we’d have a financial meltdown several hundred years out:
 
