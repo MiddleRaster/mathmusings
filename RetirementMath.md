@@ -26,13 +26,13 @@ where
 Here's the derivation:  
 
 \\[
-P_1 = (P_0 - W) \cdot y
+P_1 = (P_0 - W)y
 \\]
 \\[
-P_2 = (P_1 - Wi) \cdot y
+P_2 = (P_1 - Wi)y
 \\]
 \\[
-P_3 = (P_2 - Wi^2) \cdot y
+P_3 = (P_2 - Wi^2)y
 \\]
 \\[
 etc.
@@ -40,17 +40,28 @@ etc.
 
 Substituting the first equation into the second gives:
 \\[
-P_2 = ((P_0 - W)y - Wi)\cdot y
+P_2 = ((P_0 - W)y - Wi)y
 \\]
 
+and then simplifying yields:
+\\[
+P_2 = P_0y^2 -Wy(y+i).
+\\]
 
+Substituting this into the third equation above gives:
+\\[
+P_3 = (P_0y^2 - Wy(y+i) = Wi^2)y
+\\]
 
+which simplifies to:
+\\[
+P_3 = (P_0y^3 - Wy(y^2 + iy + i^2).
+\\]
 
-
-
-
-
-
+After a few more rounds, the general pattern becomes obvious:
+\\[
+P_n = (P_0y^n - Wy(y^{n-1} + y^{n-2} i + \cdots + y^{1} i^{n-2} + i^{n-1}).
+\\]
 
 
 
