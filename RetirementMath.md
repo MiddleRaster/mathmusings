@@ -68,6 +68,10 @@ The part inside the parentheses is a geometric series and, if \\(\lvert i/y \rve
 \\[
 P_n = P_0 y^n - W y \left( \frac{1 - \left(\frac{i}{y}\right)^n}{1 - \frac{i}{y}}\, y^{n-1} \right)
 \\]
+or
+\\[
+P_n = P_0 y^n - W y^n \left( \frac{1 - \left(\frac{i}{y}\right)^n}{1 - \frac{i}{y}}\\right)                  tag{eq 1}
+\\]
 
 
 
