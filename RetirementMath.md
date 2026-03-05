@@ -17,18 +17,18 @@ P_n = P_0 \cdot y^n - W\cdot y^n \cdot \frac{1 - \left(\frac{i}{y}\right)^n}{1 -
 \\]
 
 where
-\\[P_n\\] is the         principal at time n,  
-\\[P_0\\] is the initial principal at time 0,  
-\\[W\\] is the initial withdrawal which grows to keep up with inflation,  
-\\[y\\] is the yield ***ratio*** (e.g., 1.09 (9%)), and  
-\\[i\\] is the inflation ***ratio*** (e.g., 1.0325 (3.25%)).
+\\(P_n\\) is the         principal at time n,  
+\\(P_0\\) is the initial principal at time 0,  
+\\(W\\) is the initial withdrawal which grows to keep up with inflation,  
+\\(y\\) is the yield ***ratio*** (e.g., 1.09 (9%)), and  
+\\(i\\) is the inflation ***ratio*** (e.g., 1.0325 (3.25%)).
 
 Here's the derivation:
 
 \\[
-P_1 = (P_0 - W) \cdot y
-P_2 = (P_1 - W) \cdot y
-P_3 = (P_2 - W) \cdot y
+P_1 = (P_0 - W) \cdot y  
+P_2 = (P_1 - W) \cdot y  
+P_3 = (P_2 - W) \cdot y  
 etc.
 \\]
 
