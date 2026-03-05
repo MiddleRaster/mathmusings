@@ -70,7 +70,8 @@ P_n = P_0 y^n - W y \left( \frac{1 - \left(\frac{i}{y}\right)^n}{1 - \frac{i}{y}
 \\]
 or
 \\[
-P_n = P_0 y^n - W y^n \left( \frac{1 - \left(\frac{i}{y}\right)^n}{1 - \frac{i}{y}}\\right)                  tag{eq 1}
+P_n = P_0 y^n - W y^n \left( \frac{1 - \left(\frac{i}{y}\right)^n}{1 - \frac{i}{y}}\\right)
+tag{1}
 \\]
 
 
