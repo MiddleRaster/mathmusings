@@ -66,7 +66,7 @@ P_n = P_0y^n - Wy(y^{n-1} + y^{n-2} i + \cdots + y^{1} i^{n-2} + i^{n-1}).
 The part inside the parentheses is a geometric series and, if \\(\lvert i/y \rvert < 1\\) (i.e., that inflation is less than the yyield), can be written
 
 \\[
-P_n = P_0y^n - Wy( \frac{1 - \left(\frac{i}{y}\right)^n}{1 - \frac{i}{y}}y^{n-1})
+P_n = P_0 y^n - W y \left( \frac{1 - \left(\frac{i}{y}\right)^n}{1 - \frac{i}{y}}\, y^{n-1} \right)
 \\]
 
 
