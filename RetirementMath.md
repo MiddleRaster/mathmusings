@@ -115,4 +115,4 @@ Using our example numbers above, shows that we can withdraw up to $52,752.29 (in
 
 If we were to withdraw just one penny (inflation-adjusted) more every year, we’d have a financial meltdown several hundred years out:
 
-![Alt text](mathmusings/Crash.png)
+![Alt text](/mathmusings/Crash.png)
