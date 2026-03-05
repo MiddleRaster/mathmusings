@@ -83,15 +83,16 @@ P_n = P_0 y^n - W y^n \left( \frac{1 - \left(\frac{i}{y}\right)^n}{1 - \frac{i}{
 Now, using equation (1), we can calculate when we’ll run out of money, for given yield and inflation rates and a withdrawal that keeps up with inflation.
 
 Setting \\(P_n=0\\) and solving for \\(n\\), yields
-
-\\[
-n = \frac{\ln\left( 1 - \frac{p_0}{w}\,(1 - i/y) \right)}{\ln\left(\frac{i}{y}\right)}
-\\]
-
 \\[
 n = \frac{\ln\left( 1 - \displaystyle\frac{p_0}{w}\,(1 - i/y) \right)}{\ln\left(\frac{i}{y}\right)}
 \\]
 
+So, for example, if we want to live off of $100,000 per year and have $1,000,000, and we assume that the rate of inflation is 3.25% and that the yield of the S&P 500 will average out to 9%, then 
+\\[
+n = \frac{\ln\left( 1 - \displaystyle\frac{1000000}{100000}\,(1 - 1.0325/1.09) \right)}{\ln\left(\frac{1.0325}{1.09}\right)}
+\\]
+
+or n = 13.8 years.
 
 
 
