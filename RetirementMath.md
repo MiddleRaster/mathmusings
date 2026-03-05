@@ -29,10 +29,10 @@ Here's the derivation:
 P_1 = (P_0 - W) \cdot y
 \\]
 \\[
-P_2 = (P_1 - W \cdot i) \cdot y
+P_2 = (P_1 - Wi) \cdot y
 \\]
 \\[
-P_3 = (P_2 - W \cdot i^2) \cdot y
+P_3 = (P_2 - Wi^2) \cdot y
 \\]
 \\[
 etc.
@@ -40,7 +40,7 @@ etc.
 
 Substituting the first equation into the second gives:
 \\[
-P_2 = ((P_0 - W) \cdot y - W \cdot i) \cdot y
+P_2 = ((P_0 - W)y - Wi)\cdot y
 \\]
 
 
