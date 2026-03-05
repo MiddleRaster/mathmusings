@@ -95,6 +95,24 @@ n = \frac{\ln\left( 1 - \displaystyle\frac{1000000}{100000}\,(1 - 1.0325/1.09) \
 or n = 13.8 years.
 
 
+Alternatively, we might want to know how much we can withdraw so that the balance ***never*** reaches 0. Setting n to infinity and noting that the denominator is negative (since the inflation rate is less than the yield rate), we have:
+
+\\[
+-∞= ln(1- \frac{P_0}{W}(1- i/y))
+\\]
+
+So, 
+\\[
+0=1-  P_0/W (1- i/y)  
+\\]
+
+Or, 
+\\[
+W= P_0 (1- i/y)
+\\]
+
+Using our example numbers, above, shows that we can withdraw up to $52,752.29 (inflation-adjusted) per year and we’ll never run out of money.  
+ 
 
 
 
