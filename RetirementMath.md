@@ -88,7 +88,9 @@ Setting \\(P_n=0\\) and solving for \\(n\\), yields
 n = \frac{\ln\left( 1 - \frac{p_0}{w}\,(1 - i/y) \right)}{\ln\left(\frac{i}{y}\right)}
 \\]
 
-
+\\[
+n = \frac{\ln\left( 1 - \displaystyle\frac{p_0}{w}\,(1 - i/y) \right)}{\ln\left(\frac{i}{y}\right)
+\\]
 
 
 
