@@ -50,12 +50,12 @@ P_2 = P_0y^2 -Wy(y+i).
 
 Substituting this into the third equation above gives
 \\[
-P_3 = (P_0y^2 - Wy(y+i) = Wi^2)y
+P_3 = (P_0y^2 - Wy(y+i) - Wi^2)y
 \\]
 
 which simplifies to
 \\[
-P_3 = (P_0y^3 - Wy(y^2 + iy + i^2).
+P_3 = P_0y^3 - Wy(y^2 + iy + i^2).
 \\]
 
 After a few more rounds, the general pattern becomes obvious
@@ -66,7 +66,7 @@ P_n = P_0y^n - Wy(y^{n-1} + y^{n-2} i + \cdots + y^{1} i^{n-2} + i^{n-1}).
 The part inside the parentheses is a geometric series and, if \\(\lvert i/y \rvert < 1\\) (i.e., that inflation is less than the yyield), can be written
 
 \\[
-P_n = P_0y^n - Wy( \frac{foo}{bar}y^{n-1})
+P_n = P_0y^n - Wy( \frac{1 - \left(\frac{i}{y}\right)^n}{1 - \frac{i}{y}}y^{n-1})
 \\]
 
 
