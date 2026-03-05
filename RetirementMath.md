@@ -10,7 +10,7 @@ When I retired, the first thing I did was search on the web for a formula that w
 - each year, I want the withdrawal to be larger to keep up with inflation, 
 - assuming that the inflation rate and my accounts' yield rate are constant.
 
-After a bunch of fruitless search, I decided to derive the equation myself.  Here it is:
+After a bunch of fruitless searching, I decided to derive the equation myself.  Here it is:
 
 \\[
 P_n = P_0 \cdot y^n - W\cdot y^n \cdot \frac{1 - \left(\frac{i}{y}\right)^n}{1 - \frac{i}{y}} 
@@ -116,3 +116,21 @@ Using our example numbers above, shows that we can withdraw up to $52,752.29 (in
 If we were to withdraw just one penny (inflation-adjusted) more every year, we’d have a financial meltdown several hundred years out:
 
 ![Alt text](/mathmusings/Crash.png)
+
+I guess I'm not too worried about it.
+
+## Final Thoughts
+
+So there are a couple of things wrong with my formula:
+it assumes that inflation and yield are constants, which is sort of ok in the very long run, but potentially terrible in the short-term. 
+For example, you run into sequence-of-returns risk. 
+This is when you have a bunch of really bad years early in retirement, which could wipe you out.
+
+And that's why [Bill Bengen](https://en.wikipedia.org/wiki/William_Bengen), inventor of [the 4% rule](https://www.financialplanningassociation.org/sites/default/files/2021-04/MAR04%20Determining%20Withdrawal%20Rates%20Using%20Historical%20Data.pdf), ended up with less than my number (5.275%), because his is safer, a lot safer.
+
+Another problem:  suppose you have a bear year with a negative return, but a positive rate of inflation; or even if the rate of inflation is exactly equal to the yield.
+In these cases, the formula gives no guidance.
+Still my thinking is that so long as I withdraw significantly less than 5.275%, I'll probably be ok.
+
+[Math Musings](/mathmusings)  
+[MiddleRaster's Pages](/)
