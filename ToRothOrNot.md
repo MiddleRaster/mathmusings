@@ -1,13 +1,8 @@
 ---
 layout: default
 title: When Does It Make Sense to Invest in a Roth IRA Account?
+katex_font_size: 0.1em
 ---
-
-<style>
-.katex {
-  font-size: 0.1em;
-}
-</style>
 
 # When Does It Make Sense to Invest in a Roth IRA Account?
 
