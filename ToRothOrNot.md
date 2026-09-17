@@ -12,12 +12,12 @@ I've been hearing people tout the benefits of a Roth account for many years and 
 To wit, suppose you have $1.00 to invest and you are currently taxed at some tax rate, \\(T(w)\\), (where \\(w\\) means working) and that you expect to be taxed at a different tax rate \\(T(r)\\) at retirement.
 That means that you have two choices.
 1. If you invest in a 401k, a tax-deferred account, you pay no taxes now, but will be taxed at \\(T(r)\\) when you withdraw the funds during retirement.
-2. Alternatively, if you invest in a Roth IRA, you pay taxes now at rate \\T(w)\\), but pay no taxes when you withdraw the funds during retirement.
+2. Alternatively, if you invest in a Roth IRA, you pay taxes now at rate \\(T(w)\\), but pay no taxes when you withdraw the funds during retirement.
 
 The growth for the next \\(n\\) years is represented by \\((1+G(0))*(1+G(1))*(1+G(2))*...*(1+G(n-2))*(1+G(n-1))*(1+G(n))\\) and it is the same whichever way you invested.
 So, your balance at the end of \\(n\\) years will be either:
-1. \\((1-T(w))*(1+G(0))*(1+G(1))*(1+G(2))*...*(1+G(n-2))*(1+G(n-1))*(1+G(n))\\) or
-2. \\((1+G(0))*(1+G(1))*(1+G(2))*...*(1+G(n-2))*(1+G(n-1))*(1+G(n))*(1-T(r))\\)
+1. \\[(1-T(w))*(1+G(0))*(1+G(1))*(1+G(2))*...*(1+G(n-2))*(1+G(n-1))*(1+G(n))\\] or
+2. \\[(1+G(0))*(1+G(1))*(1+G(2))*...*(1+G(n-2))*(1+G(n-1))*(1+G(n))*(1-T(r))\\]
 
 Clearly, if you expect your taxes in retirement to be lower than they are now, you're better off investing in a 401k, **not** a Roth IRA.
 
