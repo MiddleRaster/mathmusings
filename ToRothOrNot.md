@@ -5,7 +5,7 @@ title: When Does It Make Sense to Invest in a Roth IRA Account?
 
 # When Does It Make Sense to Invest in a Roth IRA Account?
 
-I've been hearing people tout the benefits of a Roth account for many years and it never made any sense to me.
+For many years, I've been hearing people tout the benefits of a Roth account and it never made any sense to me.
 
 ## Formulas for Roth IRA vs 401k
 
@@ -16,7 +16,7 @@ That means that you have two choices.
 
 The growth for the next \\(n\\) years is represented by \\((1+G(0)) \cdot (1+G(1)) \cdot (1+G(2)) \cdot ... \cdot (1+G(n-2)) \cdot (1+G(n-1)) \cdot (1+G(n))\\) and it is the same whichever way you invested.
 So, your balance at the end of \\(n\\) years will be either:
-1. \\[(1-T(w)) \cdot (1+G(0)) \cdot (1+G(1)) \cdot (1+G(2)) \cdot ... \cdot (1+G(n-2)) \cdot (1+G(n-1)) \cdot (1+G(n))\\] or
+1. <span style="font-size: 0.9em">\\[(1-T(w)) \cdot (1+G(0)) \cdot (1+G(1)) \cdot (1+G(2)) \cdot ... \cdot (1+G(n-2)) \cdot (1+G(n-1)) \cdot (1+G(n))\\]</span> or
 2. \\[(1+G(0)) \cdot (1+G(1)) \cdot (1+G(2)) \cdot ... \cdot (1+G(n-2)) \cdot (1+G(n-1)) \cdot (1+G(n)) \cdot (1-T(r))\\]
 
 Clearly, if you expect your taxes in retirement to be lower than they are now, you're better off investing in a 401k, **not** a Roth IRA.
