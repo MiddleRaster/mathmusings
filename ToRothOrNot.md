@@ -14,10 +14,10 @@ That means that you have two choices.
 1. If you invest in a 401k, a tax-deferred account, you pay no taxes now, but will be taxed at \\(T(r)\\) when you withdraw the funds during retirement.
 2. Alternatively, if you invest in a Roth IRA, you pay taxes now at rate \\(T(w)\\), but pay no taxes when you withdraw the funds during retirement.
 
-The growth for the next \\(n\\) years is represented by \\((1+G(0)) \cdot (1+G(1)) \cdot (1+G(2)) \cdot ... \cdot (1+G(n-2)) \cdot (1+G(n-1)) \cdot (1+G(n))\\) and it is the same whichever way you invested.
+The growth for the next \\(n\\) years is represented by <span style="font-size: 0.9em">\\((1+G(0)) \cdot (1+G(1)) \cdot (1+G(2)) \cdot ... \cdot (1+G(n-2)) \cdot (1+G(n-1)) \cdot (1+G(n))\\)<span> and it is the same whichever way you invested.
 So, your balance at the end of \\(n\\) years will be either:
 1. <span style="font-size: 0.9em">\\[(1-T(w)) \cdot (1+G(0)) \cdot (1+G(1)) \cdot (1+G(2)) \cdot ... \cdot (1+G(n-2)) \cdot (1+G(n-1)) \cdot (1+G(n))\\]</span> or
-2. \\[(1+G(0)) \cdot (1+G(1)) \cdot (1+G(2)) \cdot ... \cdot (1+G(n-2)) \cdot (1+G(n-1)) \cdot (1+G(n)) \cdot (1-T(r))\\]
+2. <span style="font-size: 0.9em">\\[(1+G(0)) \cdot (1+G(1)) \cdot (1+G(2)) \cdot ... \cdot (1+G(n-2)) \cdot (1+G(n-1)) \cdot (1+G(n)) \cdot (1-T(r))\\]</span>
 
 Clearly, if you expect your taxes in retirement to be lower than they are now, you're better off investing in a 401k, **not** a Roth IRA.
 
