@@ -3,6 +3,12 @@ layout: default
 title: When Does It Make Sense to Invest in a Roth IRA Account?
 ---
 
+<style>
+.katex {
+  font-size: 0.1em;
+}
+</style>
+
 # When Does It Make Sense to Invest in a Roth IRA Account?
 
 For many years, I've been hearing people tout the benefits of a Roth account and it never made any sense to me.
