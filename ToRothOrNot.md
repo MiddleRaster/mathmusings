@@ -9,15 +9,15 @@ For many years, I've been hearing people tout the benefits of a Roth account and
 
 ## Formulas for Roth IRA vs 401k
 
-To wit, suppose you have $1.00 to invest and you are currently taxed at some tax rate, <span style="font-size: 0.9em">\\(T(w)\\)</span>, (where <span style="font-size: 0.9em">\\(w\\)</span> means working) and that you expect to be taxed at a different tax rate <span style="font-size: 0.9em">\\(T(r)\\)</span> at retirement.
+To wit, suppose you have $1.00 to invest and you are currently taxed at some tax rate, <span style="font-size: 0.9em">\\(T_w\\)</span>, (where <span style="font-size: 0.9em">\\(w\\)</span> means working) and that you expect to be taxed at a different tax rate <span style="font-size: 0.9em">\\(T_r\\)</span> at retirement.
 That means that you have two choices.
 1. If you invest in a 401k, a tax-deferred account, you pay no taxes now, but will be taxed at \\(T(r)\\) when you withdraw the funds during retirement.
 2. Alternatively, if you invest in a Roth IRA, you pay taxes now at rate \\(T(w)\\), but pay no taxes when you withdraw the funds during retirement.
 
-The growth for the next <span style="font-size: 0.9em">\\(n\\)</span> years is represented by <span style="font-size: 0.9em">\\((1+G(0)) \cdot (1+G(1)) \cdot (1+G(2)) \cdot ... \cdot (1+G(n-2)) \cdot (1+G(n-1)) \cdot (1+G(n))\\)</span> and it is the same whichever way you invested.
+The growth for the next <span style="font-size: 0.9em">\\(n\\)</span> years is represented by <span style="font-size: 0.9em">\\((1+G_0) \cdot (1+G_1) \cdot (1+G_2) \cdot ... \cdot (1+G_(n-2)) \cdot (1+G_(n-1)) \cdot (1+G_n)\\)</span> and it is the same whichever way you invested.
 So, your balance at the end of <span style="font-size: 0.9em">\\(n\\)</span> years will be either:
-1. <span style="font-size: 0.9em">\\[(1-T(w)) \cdot (1+G(0)) \cdot (1+G(1)) \cdot (1+G(2)) \cdots (1+G(n-2)) \cdot (1+G(n-1)) \cdot (1+G(n))\\]</span> or
-2. <span style="font-size: 0.9em">\\[~~~~~~~~~~~~~~~~~~~~~~(1+G(0)) \cdot (1+G(1)) \cdot (1+G(2)) \cdots (1+G(n-2)) \cdot (1+G(n-1)) \cdot (1+G(n)) \cdot (1-T(r))\\]</span>
+1. <span style="font-size: 0.9em">\\[(1-T_w) \cdot (1+G_0) \cdot (1+G_1) \cdot (1+G_2) \cdots (1+G_(n-2)) \cdot (1+G_(n-1)) \cdot (1+G_n)\\]</span> or
+2. <span style="font-size: 0.9em">\\[~~~~~~~~~~~~~~~~~~~~~~(1+G_0) \cdot (1+G_1) \cdot (1+G_2) \cdots (1+G_(n-2)) \cdot (1+G_(n-1)) \cdot (1+G_n) \cdot (1-T_r)\\]</span>
 
 Clearly, if you expect your taxes in retirement to be lower than they are now, you're better off investing in a 401k, **not** a Roth IRA.
 
