@@ -17,7 +17,7 @@ That means that you have two choices.
 The growth for the next <span style="font-size: 0.9em">\\(n\\)</span> years is represented by <span style="font-size: 0.9em">\\((1+G_0) \cdot (1+G_1) \cdot (1+G_2) \cdots (1+G_{n-2}) \cdot (1+G_{n-1}) \cdot (1+G_n)\\)</span> and it is the same whichever way you invested.
 So, your balance at the end of <span style="font-size: 0.9em">\\(n\\)</span> years will be either:
 \\[B = (1-T_w) \cdot (1+G_0) \cdot (1+G_1) \cdot (1+G_2) \cdots (1+G_{n-2}) \cdot (1+G_{n-1}) \cdot (1+G_n)\\] or
-\\[~~~~~B = ~~~~~~~~~~~~~~~~~~~~~~~(1+G_0) \cdot (1+G_1) \cdot (1+G_2) \cdots (1+G_{n-2}) \cdot (1+G_{n-1}) \cdot (1+G_n) \cdot (1-T_r)\\]
+\\[~~~~~B = ~~~~~~~~~~~~~~~~~~~~~(1+G_0) \cdot (1+G_1) \cdot (1+G_2) \cdots (1+G_{n-2}) \cdot (1+G_{n-1}) \cdot (1+G_n) \cdot (1-T_r)\\]
 
 Clearly, if you expect your taxes in retirement to be lower than they are now, you're better off investing in a 401k, **not** a Roth IRA.
 
