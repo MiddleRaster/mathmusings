@@ -16,6 +16,6 @@ Here's my first post, on how we know that:
 
 And here's an easy-to-remember proof of [Fermat's Little Theorem](FermatLittleTheorem.html).
 
-A little bit of [retirement math](/mathmusings/RetirementMath.html)
+A little bit of [retirement math](/mathmusings/RetirementMath.html) and a bit on [when it makes sense to open a Roth IRA](/mathmusing/ToRothOrNot.html)
 
 Back to [MiddleRaster](https://middleraster.github.io)'s home page.
