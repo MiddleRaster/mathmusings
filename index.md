@@ -18,4 +18,6 @@ And here's an easy-to-remember proof of [Fermat's Little Theorem](FermatLittleTh
 
 A little bit of [retirement math](/mathmusings/RetirementMath.html) and a bit on [when it makes sense to open a Roth IRA](/mathmusings/ToRothOrNot.html)
 
+A sketch of the [wobbly table theorem](WobblyTableTheorem.html)
+
 Back to [MiddleRaster](https://middleraster.github.io)'s home page.
