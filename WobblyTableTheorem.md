@@ -11,14 +11,14 @@ Here's a simple sketch of a proof.
 
 ## Configuration 1
 
-Without loss of generality, label the feet of the table A, B, C and D, clockwise, like this (viewed from above):  
+Without loss of generality, label the feet of the table A, B, C and D, like this (viewed from above):  
 A  **B**  
 **C**  D  
 Let's suppose B and C are firmly on the ground, while A and D are free to move up and down (hence the wobbling); in other words, the table is rotating/wobbling about a line through B and C.
 
 Now one way to fix the problem is to place A on the ground, leaving D up in the air, and then by jamming on C, digging right into the floor (imagine it's made of dirt loose enough to be affected by the jamming), bring D down so that it just touches the floor.  
 
-Problem solved, but it's not be ideal for the restauranteur who might object to a hole in his floor.
+Problem solved, but it's not ideal for the restaurateur who might object to a hole in his floor.
 
 
 ## Configuration 2
@@ -28,7 +28,7 @@ If we could complete that 90 degree rotation, D would end up where C was in conf
 So D started up in the air and ended up under the level of the floor.
 And that means (by the [intermediate value theorem](https://en.wikipedia.org/wiki/Intermediate_value_theorem)) that at some point during the rotation of the table, D just touched the floor.  
 
-Voila. All four feet are on the floor, there's no wobbling and both the customer and the restauranteur are happy.  
+Voilà. All four feet are on the floor, there's no wobbling and both the customer and the restaurateur are happy.  
 
 
 ## Limitations
