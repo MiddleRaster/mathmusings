@@ -12,15 +12,15 @@ Here’s the Riemann zeta function:
 \\]
 
 
-
-## Configuration 1
-
-Without loss of general.
-
-
-## Configuration 2
+\\[
+\zeta(s)=1+\frac{1}{2^s}+\frac{1}{3^s}+\frac{1}{4^s}+\frac{1}{5^s}+\cdots
+\\]
 
 
+
+\\[
+\zeta(s)=\frac{1}{1-2^{-s}}\frac{1}{1-3^{-s}}\frac{1}{1-5^{-s}}\frac{1}{1-7^{-s}}\cdots
+\\]
 
 
 [Math Musings](/mathmusings)  
