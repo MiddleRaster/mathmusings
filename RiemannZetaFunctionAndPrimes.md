@@ -91,13 +91,14 @@ and using logarithm rules, got:
 \\[ \log \zeta(s) = -\sum_p \log(1-p^{-s}) \\].
 
 Next, using this familiar identity,
-\\[ -\log(1-x) = x+\frac{x^2}{2}+\frac{x^3}{3}+\cdots \\].
+\\[ -\log(1-x) = x+\frac{x^2}{2}+\frac{x^3}{3}+\cdots, \\]
 substitute 
 \\[ x=p^{-s} \\]
 yielding
 \\[ \log\zeta(s) = \sum_p \left( p^{-s} + \frac{p^{-2s}}{2} + \frac{p^{-3s}}{3} +\cdots \right). \\]
 
-
+Now we've got something that is a polynomial over all primes. But roots of \\( \log \zeta(s) \\) are problematic and not what we're going to look at. Instead, Riemann took the derivate of \\( \log \zeta(s) \\):
+\\[ \frac{d}{ds}\log\zeta(s) = \frac{\zeta'(s)}{\zeta(s)}. \\]
 
 
 
