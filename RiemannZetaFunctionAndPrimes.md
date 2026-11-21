@@ -15,19 +15,37 @@ Now, that’s great and all, but I don’t see any primes in that formula. Where
 
 ## Euler’s Product Formula
 
-1737
-
-
-\\[
-\zeta(s)=\prod_{p}\left(1-p^{-s}\right)^{-1}
-\\]
-
-
-
+For starters, it's because Euler constructed a famous identity in 1737. Here it is:
 
 \\[
-\zeta(s)=\frac{1}{1-2^{-s}}\frac{1}{1-3^{-s}}\frac{1}{1-5^{-s}}\frac{1}{1-7^{-s}}\cdots
+\zeta(s)=\prod_{p}\left(1-p^{-s}\right)^{-1}=\frac{1}{1-2^{-s}}\frac{1}{1-3^{-s}}\frac{1}{1-5^{-s}}\frac{1}{1-7^{-s}}\cdots
 \\]
+
+The proof is quite simple.  First, take the zeta function:
+\\[
+\zeta(s)=1+\frac{1}{2^s}+\frac{1}{3^s}+\frac{1}{4^s}+\frac{1}{5^s}+\cdots  \tag{1}
+\\]
+and multiply by \\(2^{-s}\\) gives  
+\\[ \frac{1}{2^s}\zeta(s) = \frac{1}{2^s} +\frac{1}{4^s} +\frac{1}{6^s} +\frac{1}{8^s} +\frac{1}{10^s} +\cdots. \\]
+
+Subtracting from (1) gives
+\\[ \left(1-\frac{1}{2^s}\right)\zeta(s) = 1+\frac{1}{3^s} +\frac{1}{5^s} +\frac{1}{7^s} +\frac{1}{9^s} +\frac{1}{11^s} +\frac{1}{13^s} +\cdots. \\]
+
+Nest, multiply by the next term:
+\\[ \frac{1}{3^s} \left(1-\frac{1}{2^s}\right)\zeta(s) = \frac{1}{3^s} +\frac{1}{9^s} +\frac{1}{15^s} +\frac{1}{21^s} +\frac{1}{27^s} +\frac{1}{33^s} +\cdots. \\]
+
+Subtract:
+\\[ \left(1-\frac{1}{3^s}\right) \left(1-\frac{1}{2^s}\right) \zeta(s) = 1+\frac{1}{5^s} +\frac{1}{7^s} +\frac{1}{11^s} +\frac{1}{13^s} +\frac{1}{17^s} +\cdots, \\]
+
+Repeating this procedure for each term, we get:
+\\[ \cdots \left(1-\frac{1}{11^s}\right) \left(1-\frac{1}{7^s}\right) \left(1-\frac{1}{5^s}\right) \left(1-\frac{1}{3^s}\right) \left(1-\frac{1}{2^s}\right) \zeta(s) = 1. \\]
+
+Dividing through by the product on the left gives
+\\[ \zeta(s) = \frac{1} {\left(1-\frac{1}{2^s}\right) \left(1-\frac{1}{3^s}\right) \left(1-\frac{1}{5^s}\right) \left(1-\frac{1}{7^s}\right) \left(1-\frac{1}{11^s}\right) \cdots }= \prod_{p\ \mathrm{prime}} \frac{1}{1-p^{-s}}. \\]
+
+## Blah
+
+
 
 
 [Math Musings](/mathmusings)  
