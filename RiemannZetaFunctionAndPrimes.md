@@ -23,10 +23,10 @@ For starters, it's because Euler constructed a famous identity in 1737. Here it 
 
 The proof is quite simple.  First, take the zeta function:
 \\[\zeta(s)=1+\frac{1}{2^s}+\frac{1}{3^s}+\frac{1}{4^s}+\frac{1}{5^s}+\cdots  \tag{1}\\]
-and multiply by \\(2^{-s}\\) gives  
+and multiplying by \\(2^{-s}\\) gives:  
 \\[ \frac{1}{2^s}\zeta(s) = \frac{1}{2^s} +\frac{1}{4^s} +\frac{1}{6^s} +\frac{1}{8^s} +\frac{1}{10^s} +\cdots. \\]
 
-Subtracting from (1) gives
+Subtracting from (1) gives:
 \\[ \left(1-\frac{1}{2^s}\right)\zeta(s) = 1+\frac{1}{3^s} +\frac{1}{5^s} +\frac{1}{7^s} +\frac{1}{9^s} +\frac{1}{11^s} +\frac{1}{13^s} +\cdots.  \tag{2} \\]
 
 Nest, multiply by the next term:
@@ -41,7 +41,54 @@ Repeating this procedure for each term, we get:
 Dividing through by the product on the left gives
 \\[ \zeta(s) = \frac{1} {\left(1-\frac{1}{2^s}\right) \left(1-\frac{1}{3^s}\right) \left(1-\frac{1}{5^s}\right) \left(1-\frac{1}{7^s}\right) \left(1-\frac{1}{11^s}\right) \cdots }= \prod_{p\ \mathrm{prime}} \frac{1}{1-p^{-s}}.  \tag{3} \\]
 
-## Blah
+Ok, we now see that the zeta function can be written as a product involving primes. Surely the connection to primes is stronger than that.
+
+## Gauss's contribution
+
+It is. First, in 1792 or 3, Carl Friedrich Gauss (more properly spelled Gauß:  my favorite mathematician, because he got his doctorate in my hometown), as a teenager noticed that the number of primes grew sparser as the numbers get bigger and conjectured that the "probability" that a given number is prime is approximately:
+\\[ \Pr(x \text{ is prime}) \approx \frac{1}{\log x} \\]
+
+If that's true, then the counting function, that is, the number of primes less than x, is:
+\\[ \pi(x) \approx \sum_{n \le x} \frac{1}{\log n} \\]
+
+Now that looks a lot like an integral, so we can write:
+\\[ \operatorname{Li}(x)=\int_2^x \frac{dt}{\log t} \\]
+
+And we can integrate by parts:
+
+\\[\operatorname{Li}(x)=\int_2^x \frac{dt}{\log t}\\]
+
+Take
+
+\\[
+u=\frac{1}{\log t},
+\qquad
+dv=dt.
+\\]
+
+Then
+
+\\[
+du=-\frac{dt}{t(\log t)^2},
+\qquad
+v=t.
+\\]
+
+Therefore
+
+\\[\operatorname{Li}(x)=\frac{x}{\log x}-\frac{2}{\log 2}+\int_2^x \frac{dt}{(\log t)^2}\\]
+
+Repeating the process gives the asymptotic expansion
+
+\\[\operatorname{Li}(x)\sim\frac{x}{\log x}+\frac{x}{(\log x)^2}+\frac{2x}{(\log x)^3}+\frac{6x}{(\log x)^4}+\cdots\\]
+
+More compactly,
+
+\\[\operatorname{Li}(x)\sim\frac{x}{\log x}\left(1+\frac{1}{\log x}+\frac{2!}{(\log x)^2}+\frac{3!}{(\log x)^3}+\cdots\right)\\]
+
+
+
+
 
 
 
