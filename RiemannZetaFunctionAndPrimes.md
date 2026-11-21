@@ -54,39 +54,48 @@ If that's true, then the counting function, that is, the number of primes less t
 Now that looks a lot like an integral, so we can write:
 \\[ \operatorname{Li}(x)=\int_2^x \frac{dt}{\log t} \\]
 
-And we can integrate by parts:
-
+which we can integrate by parts:
 \\[\operatorname{Li}(x)=\int_2^x \frac{dt}{\log t}\\]
 
 Take
-
 \\[
 u=\frac{1}{\log t},
 \qquad
-dv=dt.
+dv=dt
 \\]
 
 Then
-
 \\[
 du=-\frac{dt}{t(\log t)^2},
 \qquad
-v=t.
+v=t
 \\]
 
 Therefore
+\\[\operatorname{Li}(x)=\frac{x}{\log x}-\frac{2}{\log 2}+\int_2^x \frac{dt}{(\log t)^2}\\].
 
-\\[\operatorname{Li}(x)=\frac{x}{\log x}-\frac{2}{\log 2}+\int_2^x \frac{dt}{(\log t)^2}\\]
-
-Repeating the process gives the asymptotic expansion
-
-\\[\operatorname{Li}(x)\sim\frac{x}{\log x}+\frac{x}{(\log x)^2}+\frac{2x}{(\log x)^3}+\frac{6x}{(\log x)^4}+\cdots\\]
-
-More compactly,
-
+Repeating the process gives the asymptotic expansion:
 \\[\operatorname{Li}(x)\sim\frac{x}{\log x}\left(1+\frac{1}{\log x}+\frac{2!}{(\log x)^2}+\frac{3!}{(\log x)^3}+\cdots\right)\\]
 
+Ok, we now have a counting formula, \\(\pi(x) \\) and an approximation to it, \\(\operatorname{Li}(x)\\).
 
+## What Riemann saw
+
+Riemann took Euler's product formula,
+\\[ \zeta(s) = \prod_p \frac{1}{1-p^{-s}} \\]
+and asked, if all the primes are encoded inside \\( \zeta(s) \\), what information can we recover from studying the analytic properties of \\( \zeta(s) \\)?
+
+First, he took the logarithm
+\\[ \log\zeta(s) = \sum_p \log\left(\frac{1}{1-p^{-s}}\right) \\]
+and using logarithm rules, got:
+\\[ \log \zeta(s) = -\sum_p \log(1-p^{-s}) \\].
+
+Next, using this familiar identity,
+\\[ -\log(1-x) = x+\frac{x^2}{2}+\frac{x^3}{3}+\cdots \\].
+substitute 
+\\[ x=p^{-s} \\]
+yielding
+\\[ \log\zeta(s) = \sum_p \left( p^{-s} + \frac{p^{-2s}}{2} + \frac{p^{-3s}}{3} +\cdots \right). \\]
 
 
 
